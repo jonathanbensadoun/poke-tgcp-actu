@@ -2002,105 +2002,105 @@
         "type": 5
     },
     {
-        "id": "P-A 001",
+        "id": "P-A-001",
         "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         "hp": 0,
         "stage": "",
         "type": "Item"
     },
     {
-        "id": "P-A 002",
+        "id": "P-A-002",
         "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         "hp": 0,
         "stage": "",
         "type": "Item"
     },
     {
-        "id": "P-A 003",
+        "id": "P-A-003",
         "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         "hp": 0,
         "stage": "",
         "type": "Item"
     },
     {
-        "id": "P-A 004",
+        "id": "P-A-004",
         "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         "hp": 0,
         "stage": "",
         "type": "Item"
     },
     {
-        "id": "P-A 005",
+        "id": "P-A-005",
         "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         "hp": 0,
         "stage": "",
         "type": "Item"
     },
     {
-        "id": "P-A 006",
+        "id": "P-A-006",
         "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         "hp": 0,
         "stage": "",
         "type": "Item"
     },
     {
-        "id": "P-A 007",
+        "id": "P-A-007",
         "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         "hp": 0,
         "stage": "",
         "type": "Supporter"
     },
     {
-        "id": "P-A 009",
+        "id": "P-A-009",
         "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         "hp": 60,
         "stage": "Basic",
         "type": 4
     },
     {
-        "id": "P-A 011",
+        "id": "P-A-011",
         "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         "hp": 120,
         "stage": "Basic",
         "type": 10
     },
     {
-        "id": "P-A 012",
+        "id": "P-A-012",
         "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         "hp": 60,
         "stage": "Basic",
         "type": 10
     },
     {
-        "id": "P-A 013",
+        "id": "P-A-013",
         "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         "hp": 120,
         "stage": "Stage 2",
         "type": 1
     },
     {
-        "id": "P-A 014",
+        "id": "P-A-014",
         "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         "hp": 140,
         "stage": "Basic",
         "type": 3
     },
     {
-        "id": "P-A 015",
+        "id": "P-A-015",
         "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         "hp": 60,
         "stage": "Basic",
         "type": 4
     },
     {
-        "id": "P-A 016",
+        "id": "P-A-016",
         "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         "hp": 60,
         "stage": "Basic",
         "type": 5
     },
     {
-        "id": "P-A 017",
+        "id": "P-A-017",
         "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
         "hp": 50,
         "stage": "Basic",

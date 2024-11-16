@@ -3,7 +3,7 @@ const axios = require('axios');
 const path = require('path');
 
 // Chemin vers le fichier JSON et le dossier de destination
-const jsonFilePath = './filtered_urls.json';
+const jsonFilePath = './tabPromo.json';
 const outputDir = './images';
 
 // Créer le dossier de sortie s'il n'existe pas
