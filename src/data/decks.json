@@ -1,0 +1,20 @@
+
+     [
+        {
+            "id": 1,
+            "name": "Mewto Gardevoir",
+            "nameImg": "Mewto_Gardevoir",
+            "deck": ["A1-129", "A1-129", "A1-130", "A1-130", "A1-131", "A1-131", "A1-132", "A1-132", "P-A-001", "P-A-002", "P-A-002", "P-A-005", "P-A-005", "P-A-006", "P-A-007", "P-A-007", "A1-223", "A1-223", "A1-225", "A1-225"],
+            "rank": "S",
+            "description": "Mewtwo, un des pokémons emblématique de la licence est une machine absolue sur TCGP ! 150pv, 50 de dégâts avec 2 énergies et 150 avec 4, capable de one shot la quasi totalité des menaces ! On l'accompagne de Gardevoir afin d'accélérer son setup et lui rendre l'énergie consommée par son attaque ultime. Le deck est stable, puissant, capable de se sortir des pires situations grâce à un Mewtwo solide sous tous les aspects, en résumé un Deck vraiment recommandé !"
+        },
+        {
+            "id": 2,
+            "name": "Dracofura",
+            "nameImg": "Dracofura", 
+            "deck": ["A1-034", "A1-034", "A1-035", "A1-035", "A1-036", "A1-036", "A1-047","A1-047", "P-A-001", "P-A-001", "P-A-002", "P-A-002", "P-A-005", "P-A-005", "P-A-006", "P-A-006", "P-A-007", "P-A-007", "A1-225", "A1-225"],
+            "alternat": ["A1-041", "A1-052"],
+            "description_alternate": "Si vous cherchez un setup plus rapide que Dracofeu, Arcanin EX est une très bonne alternative de par sa force de frappe et les 3 énergies demandées pour son utilisation. Sinon à moindre budget, Scolocendre possède le même gameplay que Dracofeu EX, certes aura moins de dégats mais en contrepartie d'un setup plus facile ainsi qu'un budget plus attractif.",
+            "rank": "A"
+        }
+    ]

@@ -27,10 +27,10 @@ const Navbar: React.FC = () => {
           <Link href="#news" className="hover:text-gray-400">
             News
           </Link>
-          <Link href="#deck" className="hover:text-gray-400">
-            Deck
+          <Link href="decks" className="hover:text-gray-400">
+            Decks
           </Link>
-          <Link href="#cards" className="hover:text-gray-400">
+          <Link href="cards" className="hover:text-gray-400">
             Liste des cartes
           </Link>
         </div>
@@ -79,16 +79,16 @@ const Navbar: React.FC = () => {
       </div>
       <div className="flex justify-end">
         {isOpen && (
-          <div className="bg-gray-800 text-white w-1/3 flex p-4 rounded-bl-lg flex-col justify-center items-center ">
+          <div className="bg-gray-800 text-white w-1/3 flex p-4 rounded-bl-lg flex-col justify-center items-center absolute">
             <div className="block lg:hidden mt-4">
               <div className="flex flex-col  space-y-4 ">
                 <Link href="#news" className="hover:text-gray-400">
                   News
                 </Link>
-                <Link href="#deck" className="hover:text-gray-400">
-                  Deck
+                <Link href="decks" className="hover:text-gray-400">
+                  Decks
                 </Link>
-                <Link href="#cards" className="hover:text-gray-400">
+                <Link href="cards" className="hover:text-gray-400">
                   Liste des cartes
                 </Link>
                 <div className="flex flex-row justify-center items-center gap-4 w-full">
