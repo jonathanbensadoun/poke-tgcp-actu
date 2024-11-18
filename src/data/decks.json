@@ -1,5 +1,4 @@
-
-     [
+ [
         {
             "id": 1,
             "name": "Mewto Gardevoir",
@@ -11,10 +10,114 @@
         {
             "id": 2,
             "name": "Dracofura",
-            "nameImg": "Dracofura", 
-            "deck": ["A1-034", "A1-034", "A1-035", "A1-035", "A1-036", "A1-036", "A1-047","A1-047", "P-A-001", "P-A-001", "P-A-002", "P-A-002", "P-A-005", "P-A-005", "P-A-006", "P-A-006", "P-A-007", "P-A-007", "A1-225", "A1-225"],
+            "nameImg": "Dracofura",
+            "deck": ["A1-034", "A1-034", "A1-035", "A1-035", "A1-036", "A1-036", "A1-047", "P-A-001", "P-A-001", "P-A-002", "P-A-002", "P-A-005", "P-A-005", "P-A-006", "P-A-006", "P-A-007", "P-A-007", "A1-225", "A1-225"],
             "alternat": ["A1-041", "A1-052"],
-            "description_alternate": "Si vous cherchez un setup plus rapide que Dracofeu, Arcanin EX est une très bonne alternative de par sa force de frappe et les 3 énergies demandées pour son utilisation. Sinon à moindre budget, Scolocendre possède le même gameplay que Dracofeu EX, certes aura moins de dégats mais en contrepartie d'un setup plus facile ainsi qu'un budget plus attractif.",
+            "rank": "A",
+            "description_alternate": "Si vous cherchez un setup plus rapide que Dracofeu, Arcanin EX est une très bonne alternative de par sa force de frappe et les 3 énergies demandées pour son utilisation. Sinon à moindre budget, Scolocendre possède le même gameplay que Dracofeu EX, certes aura moins de dégats mais en contrepartie d'un setup plus facile ainsi qu'un budget plus attractif."
+        },
+        {
+            "id": 3,
+            "name": "Pikaggro",
+            "nameImg":"Pikaggro",
+            "deck": ["A1-099", "A1-099", "A1-100", "A1-100", "A1-104", "A1-104", "A1-096", "A1-096", "P-A-001", "P-A-001", "P-A-002", "P-A-002", "P-A-005", "P-A-005", "P-A-007", "P-A-007", "A1-223", "A1-223", "A1-225", "A1-225"],
+            "alternat": ["A1-129", "A1-129", "A1-130", "A1-130", "A1-131", "A1-131", "A1-132", "A1-132", "001/P-A", "002/P-A", "002"],
+            "rank": "S"
+        },
+        {
+            "id": 4,
+            "name": "StarrTikodin",
+            "nameImg": "StarrTikodin",
+            "deck": ["A1-074", "A1-074", "A1-076", "A1-076", "A1-084", "A1-084", "A1-220", "A1-220", "P-A-001", "P-A-001", "P-A-002", "P-A-002", "P-A-005", "P-A-005", "P-A-007", "P-A-007", "A1-223", "A1-223", "A1-225", "A1-225"],
+            "alternat": ["A1-129", "A1-129", "A1-130", "A1-130", "A1-131", "A1-131", "A1-132", "A1-132", "001/P-A", "002/P-A", "002"],
+            "rank": "A"
+        },
+        {
+            "id": 5,
+            "name": "Team Rocket",
+            "nameImg": "Team_Rocket",
+            "deck": ["A1-164", "A1-164", "A1-176", "A1-176", "A1-165", "A1-165", "A1-177", "A1-177", "P-A-001", "P-A-001", "P-A-002", "P-A-002", "P-A-005", "P-A-005", "P-A-007", "P-A-007", "A1-222", "A1-222", "A1-225", "A1-225"],
+            "alternat": ["A1-129", "A1-129", "A1-130", "A1-130", "A1-131", "A1-131", "A1-132", "A1-132", "001/P-A", "002/P-A", "002"],
+            "rank": "A"
+        },
+        {
+            "id": 6,
+            "name": "Florrillusion",
+            "nameImg": "Florrillusion",
+            "deck": ["A1-005", "A1-005", "A1-006", "A1-006", "A1-007", "A1-007", "A1-001", "A1-001", "A1-002", "A1-002", "A1-004", "A1-004", "P-A-001", "P-A-001", "P-A-005", "P-A-005", "P-A-007", "P-A-007", "A1-219", "A1-219"],
+            "alternat": ["A1-129", "A1-129", "A1-130", "A1-130", "A1-131", "A1-131", "A1-132", "A1-132", "001/P-A", "002/P-A", "002"],
+            "rank": "B"
+        },
+        {
+            "id": 7,
+            "name": "AggrAuguste",
+            "nameImg": "Florrillusion",
+            "deck": ["A1-037", "A1-037", "A1-038", "A1-038", "A1-047", "A1-047", "P-A-001", "P-A-001", "P-A-002", "P-A-002", "P-A-005", "P-A-005", "P-A-007", "P-A-007", "A1-223", "A1-223", "A1-225", "A1-225", "A1-221", "A1-221"],
+            "alternat": ["A1-129", "A1-129", "A1-130", "A1-130", "A1-131", "A1-131", "A1-132", "A1-132", "001/P-A", "002/P-A", "002"],
+            "rank": "B"
+        },
+        {
+            "id": 8,
+            "name": "GogoKazam",
+            "nameImg": "Florrillusion",
+            "deck": ["A1-115", "A1-115", "A1-116", "A1-116", "A1-117", "A1-117", "A1-176", "A1-176", "A1-177", "A1-177", "P-A-001", "P-A-002", "P-A-002", "P-A-005", "P-A-005", "P-A-007", "P-A-007", "A1-222", "A1-222", "A1-225"],
+            "alternat": ["A1-129", "A1-129", "A1-130", "A1-130", "A1-131", "A1-131", "A1-132", "A1-132", "001/P-A", "002/P-A", "002"],
+            "rank": "B"
+        },
+        {
+            "id": 9,
+            "name": "Tortankonflex",
+            "nameImg": "Florrillusion",
+            "deck": ["A1-053", "A1-053", "A1-054", "A1-054", "A1-056", "A1-056", "A1-250", "A1-250", "P-A-001", "P-A-001", "P-A-002", "P-A-002", "P-A-005", "P-A-005", "P-A-007", "P-A-007", "A1-220", "A1-220", "A1-225", "A1-225"],
+            "alternat": ["A1-129", "A1-129", "A1-130", "A1-130", "A1-131", "A1-131", "A1-132", "A1-132", "001/P-A", "002/P-A", "002"],
+            "rank": "B"
+        },
+        {
+            "id": 10,
+            "name": "Mackosinge",
+            "nameImg": "Mackosinge",
+            "deck": ["A1-143", "A1-143", "A1-144", "A1-144", "A1-146", "A1-146", "P-A-017", "P-A-017", "A1-142", "A1-142", "P-A-001", "P-A-001", "P-A-002", "P-A-002", "P-A-005", "P-A-005", "P-A-007", "P-A-007", "A1-223", "A1-225"],
+            "alternat": ["A1-129", "A1-129", "A1-130", "A1-130", "A1-131", "A1-131", "A1-132", "A1-132", "001/P-A", "002/P-A", "002"],
+            "rank": "B"
+        },
+        {
+            "id": 11,
+            "name": "Draconflex",
+            "nameImg": "Dracoflex",
+            "deck": ["A1-183", "A1-183", "A1-184", "A1-184", "A1-185", "A1-185", "A1-250", "A1-250", "P-A-001", "P-A-001", "P-A-002", "P-A-002", "P-A-005", "P-A-005", "P-A-007", "P-A-007", "A1-223", "A1-223", "A1-225", "A1-225"],
+            "alternat": ["A1-129", "A1-129", "A1-130", "A1-130", "A1-131", "A1-131", "A1-132", "A1-132", "001/P-A", "002/P-A", "002"],
+            "rank": "B"
+        },
+        {
+            "id": 12,
+            "name": "SmogoKing",
+            "nameImg": "SmogoKing",
+            "deck": ["A1-169", "A1-169", "A1-170", "A1-170", "A1-171", "A1-171", "A1-172", "A1-172", "A1-176", "A1-176", "A1-177", "A1-177", "P-A-001", "P-A-002", "P-A-005", "P-A-005", "P-A-007", "P-A-007", "A1-222", "A1-222", "A1-223", "A1-225"],
+            "alternat": ["A1-129", "A1-129", "A1-130", "A1-130", "A1-131", "A1-131", "A1-132", "A1-132", "001/P-A", "002/P-A", "002"],
+            "rank": "B"
+        },
+        {
+            "id": 13,
+            "name": "KabutOnix",
+            "nameImg": "KabutOnix",
+            "deck": ["A1-169", "A1-158", "A1-158", "A1-159", "A1-159", "P-A-001", "P-A-002", "P-A-002", "P-A-006", "A1-217", "A1-217", "P-A-007", "P-A-007", "A1-224", "A1-224", "A1-223", "A1-223", "A1-225"],
+            "alternat": ["A1-129", "A1-129", "A1-130", "A1-130", "A1-131", "A1-131", "A1-132", "A1-132", "001/P-A", "002/P-A", "002"],
+            "rank": "B"
+        },
+        {
+            "id": 14,
+            "name": "Melmetal",
+            "nameImg": "Melmetal",
+            "deck": ["A1-178", "A1-179", "A1-179", "A1-180", "A1-180", "A1-181", "A1-181", "A1-182", "A1-182", "P-A-001", "P-A-001", "P-A-002", "P-A-002", "P-A-005", "P-A-005", "P-A-007", "P-A-007", "A1-223", "A1-223", "A1-225"],
+            "alternat": ["A1-129", "A1-129", "A1-130", "A1-130", "A1-131", "A1-131", "A1-132", "A1-132", "001/P-A", "002/P-A", "002"],
+            "rank": "B"
+        },
+        {
+            "id": 15,
+            "name": "Ossablaireau",
+            "nameImg": "Ossablaireau",
+            "deck": ["A1-137", "A1-137", "A1-138", "A1-138", "A1-151", "A1-151", "A1-153", "A1-153", "A1-154", "P-A-001", "P-A-001", "P-A-002", "P-A-002", "P-A-005", "P-A-005", "P-A-007", "P-A-007", "A1-223", "A1-223", "A1-225"],
+            "alternat": ["A1-129", "A1-129", "A1-130", "A1-130", "A1-131", "A1-131", "A1-132", "A1-132", "001/P-A", "002/P-A", "002"],
             "rank": "A"
         }
     ]

@@ -44,12 +44,10 @@ const CardsPage: React.FC = () => {
       {cardData.map((card: Card) => (
         <div
           key={card.id}
-          className="flex flex-col justify-center items-center text-white bg-gray-800 bg-opacity-50 p-2 rounded-lg shadow-lg "
+          className="flex flex-col justify-center items-center text-white bg-gray-800 bg-opacity-50 p-2 rounded-lg shadow-lg w-2/5 sm:w-1/5 md:w-2/12 lg:w-2/12 xl:w-1/12  "
         >
           <Image
-            src={`/images/${card.id}${
-              card.id.startsWith("A") ? ".jpg" : ".png"
-            }`}
+            src={`/images/${card.id}.jpg`}
             alt={`Carte Pokémon TCG Pocket ${card.id} de type ${getTypeName(
               String(card.type)
             )} avec ${card.hp} points de vie et de stade ${card.stage}`}

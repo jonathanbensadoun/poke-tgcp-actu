@@ -20,17 +20,17 @@ const Navbar: React.FC = () => {
   return (
     <nav className="lg:flex lg:justify-center lg:items-center">
       <div className="flex flex-row lg:flex-row items-center justify-between p-4 bg-gray-800 text-white lg:rounded-b-lg lg:w-4/5">
-        <div className="flex-shrink-0">
+        <Link href="/" className="hover:text-gray-400">
           <h1 className="text-xl font-bold">Poké TCGP Actu</h1>
-        </div>
+        </Link>
         <div className="hidden lg:flex lg:items-center lg:space-x-4 mx-auto">
-          <Link href="#news" className="hover:text-gray-400">
+          <Link href="/" className="hover:text-gray-400">
             News
           </Link>
-          <Link href="decks" className="hover:text-gray-400">
+          <Link href="/decks" className="hover:text-gray-400">
             Decks
           </Link>
-          <Link href="cards" className="hover:text-gray-400">
+          <Link href="/cards" className="hover:text-gray-400">
             Liste des cartes
           </Link>
         </div>
@@ -82,13 +82,25 @@ const Navbar: React.FC = () => {
           <div className="bg-gray-800 text-white w-1/3 flex p-4 rounded-bl-lg flex-col justify-center items-center absolute">
             <div className="block lg:hidden mt-4">
               <div className="flex flex-col  space-y-4 ">
-                <Link href="#news" className="hover:text-gray-400">
+                <Link
+                  href="/"
+                  className="hover:text-gray-400"
+                  onClick={toggleMenu}
+                >
                   News
                 </Link>
-                <Link href="decks" className="hover:text-gray-400">
+                <Link
+                  href="/decks"
+                  className="hover:text-gray-400"
+                  onClick={toggleMenu}
+                >
                   Decks
                 </Link>
-                <Link href="cards" className="hover:text-gray-400">
+                <Link
+                  href="/cards"
+                  className="hover:text-gray-400"
+                  onClick={toggleMenu}
+                >
                   Liste des cartes
                 </Link>
                 <div className="flex flex-row justify-center items-center gap-4 w-full">
@@ -97,6 +109,7 @@ const Navbar: React.FC = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gray-400"
+                    onClick={toggleMenu}
                   >
                     <FaTwitch />
                   </Link>
@@ -105,6 +118,7 @@ const Navbar: React.FC = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gray-400"
+                    onClick={toggleMenu}
                   >
                     <FaYoutube />
                   </Link>
@@ -113,6 +127,7 @@ const Navbar: React.FC = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gray-400"
+                    onClick={toggleMenu}
                   >
                     <FaTiktok />
                   </Link>
@@ -121,6 +136,7 @@ const Navbar: React.FC = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gray-400"
+                    onClick={toggleMenu}
                   >
                     <FaTwitter />
                   </Link>

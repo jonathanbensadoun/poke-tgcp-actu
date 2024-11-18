@@ -1,35 +1,54 @@
 "use client";
 import React from "react";
-import Image from "next/image";
-import deckData from "@/data/decks.json";
+// import Image from "next/image";
+import Link from "next/link";
+import deckData from "@/data/decks.json"; // Vérifie que le chemin est correct
 
-export default function Page() {
-  return (
-    <div>
-      <h2 className="text-2xl">Decks</h2>
-      <div className="flex flex-wrap gap-2 justify-center items-center m-4">
-        {deckData.map((deck) => (
+// Définir le type des données des decks
+type Rank = "S" | "A" | "B"; // Les valeurs possibles pour `rank`
+type Deck = {
+  id: number;
+  name: string;
+  rank: Rank;
+  nameImg: string;
+};
+
+export default function DecksPage() {
+  // Assure TypeScript que deckData est de type Deck[]
+  const sortedDecks = (deckData as Deck[]).sort((a, b) => {
+    const rankOrder: { [key in Rank]: number } = { S: 1, A: 2, B: 3 };
+    return rankOrder[a.rank] - rankOrder[b.rank];
+  });
+
+  const renderDecksByRank = (rank: Rank) => (
+    <div className="flex flex-col   w-full">
+      <h3 className="text-2xl font-bold mb-4 text-center">Rank {rank}</h3>
+      {sortedDecks
+        .filter((deck) => deck.rank === rank)
+        .map((deck) => (
           <div
             key={deck.id}
-            className="flex flex-col justify-center items-center text-white bg-gray-300 bg-opacity-50 p-2 rounded-lg shadow-lg"
+            className="p-4 border rounded-lg shadow-lg flex flex-col items-center mb-4"
           >
-            <h2 className="text-2xl text-black">{deck.name}</h2>
-            <div className="flex flex-wrap justify-center items-center ">
-              {deck.deck.map((cardId, index) => (
-                <Image
-                  key={index}
-                  src={`/images/${cardId}.jpg`}
-                  alt={`Deck Pokémon TCG Pocket ${deck.id} Card ${cardId}`}
-                  width={300}
-                  height={400}
-                  style={{ width: "auto", height: "auto" }}
-                  priority={deck.id === 1}
-                  className="rounded-2xl m-1"
-                />
-              ))}
-            </div>
+            <h2 className="text-xl font-semibold">{deck.name}</h2>
+            <p className="text-gray-500">Rank: {deck.rank}</p>
+            <Link href={`/decks/${deck.nameImg}`}>
+              <button className="mt-4 px-4 py-2 bg-blue-500 text-white  hover:bg-blue-600 rounded-full shadow-md">
+                Voir les détails
+              </button>
+            </Link>
           </div>
         ))}
+    </div>
+  );
+
+  return (
+    <div className="p-8">
+      <h1 className="text-4xl font-bold mb-6">Liste des Decks</h1>
+      <div className="flex flex-wrap gap-6">
+        {renderDecksByRank("S")}
+        {renderDecksByRank("A")}
+        {renderDecksByRank("B")}
       </div>
     </div>
   );
