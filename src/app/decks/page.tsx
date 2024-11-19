@@ -33,7 +33,7 @@ export default function DecksPage() {
             <h2 className="text-xl font-semibold">{deck.name}</h2>
             <p className="text-gray-500">Rank: {deck.rank}</p>
             <Link href={`/decks/${deck.nameImg}`}>
-              <button className="mt-4 px-4 py-2 bg-blue-500 text-white  hover:bg-blue-600 rounded-full shadow-md">
+              <button className="mt-4 px-4 py-2 bg-blue-500 text-white  hover:bg-blue-600 rounded-full shadow">
                 Voir les détails
               </button>
             </Link>

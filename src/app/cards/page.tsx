@@ -44,7 +44,7 @@ const CardsPage: React.FC = () => {
       {cardData.map((card: Card) => (
         <div
           key={card.id}
-          className="flex flex-col justify-center items-center text-white bg-gray-800 bg-opacity-50 p-2 rounded-lg shadow-lg w-2/5 sm:w-1/5 md:w-2/12 lg:w-2/12 xl:w-1/12  "
+          className="flex flex-col justify-center items-center text-gray-800 bg-white bg-opacity-25 p-2 rounded-lg shadow-lg w-2/5 sm:w-1/5 md:w-2/12 lg:w-2/12 xl:w-1/12  "
         >
           <Image
             src={`/images/${card.id}.jpg`}
@@ -57,10 +57,6 @@ const CardsPage: React.FC = () => {
             priority={card.id === "A1-001"}
             className="rounded-2xl"
           />
-          <p>N°: {card.id}</p>
-          <p>HP: {card.hp}</p>
-          <p>Stage: {card.stage}</p>
-          <p>Type: {getTypeName(String(card.type))}</p>
         </div>
       ))}
     </div>

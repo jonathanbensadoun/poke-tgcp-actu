@@ -6,9 +6,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 @layer base {
   :root {
+    --gradient-background: linear-gradient(45deg, #805aad 40%, #0f031d);
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
@@ -64,12 +64,12 @@ body {
   }
 }
 
-
 @layer base {
   * {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground text-white;
+    background: var(--gradient-background);
   }
 }
