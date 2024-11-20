@@ -1,6 +1,6 @@
 [build]
 command = "npm run build"
-publish = "out" # Chemin de sortie pour `next export`
+publish = "out" 
 
 [[plugins]]
 package = "@netlify/next"
