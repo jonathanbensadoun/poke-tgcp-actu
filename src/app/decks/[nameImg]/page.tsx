@@ -8,6 +8,7 @@ export default function DeckDetails({
   params: { nameImg: string };
 }) {
   const { nameImg } = params;
+  console.log(nameImg);
   // Récupère les données du deck correspondant à l'URL
   const deck = deckData.find((deck) => deck.nameImg === nameImg);
 
