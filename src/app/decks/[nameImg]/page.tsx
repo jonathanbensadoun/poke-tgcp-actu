@@ -1,4 +1,4 @@
-import { PokeballRight } from "@/components/pokeball";
+import { PokeballLeft, PokeballRight } from "@/components/pokeball";
 import deckData from "@/data/decks.json"; // Vérifie que le chemin est correct
 import Image from "next/image";
 
@@ -33,7 +33,7 @@ export default async function DeckDetails({
         {deck.deck.map((card, index) => (
           <li
             key={index}
-            className="w-1/5 sm:w-1/5 md:w-2/12 lg:w-2/12 xl:w-1/12 p-1"
+            className="w-[8rem] sm:w-1/5 md:w-2/12 lg:w-3/12 xl:w-[12rem] p-1"
           >
             <Image
               src={`/images/${card}.jpg`}
@@ -48,7 +48,7 @@ export default async function DeckDetails({
       </ul>
       {deck.alternat && (
         <div className="flex flex-col justify-center items-center">
-          <PokeballRight />
+          <PokeballLeft />
           {deck.description_alternate && (
             <div className="w-1/2">
               <p className="text-gray-700 mt-6">{deck.description_alternate}</p>
@@ -58,7 +58,7 @@ export default async function DeckDetails({
             {deck.alternat.map((card, index) => (
               <li
                 key={index}
-                className="w-1/5 sm:w-1/5 md:w-2/12 lg:w-3/12 xl:w-3/12 p-1"
+                className="w-[8rem] sm:w-1/5 md:w-2/12 lg:w-3/12 xl:w-[12rem] p-1"
               >
                 <Image
                   src={`/images/${card}.jpg`}

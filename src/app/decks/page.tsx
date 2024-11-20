@@ -34,7 +34,7 @@ export default function DecksPage() {
       </div>
 
       <h3 className="text-2xl font-bold mb-4 text-center">Rank {rank}</h3>
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-row gap-4">
         {sortedDecks
           .filter((deck) => deck.rank === rank)
           .map((deck) => (
