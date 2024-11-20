@@ -23,18 +23,8 @@ export default function DecksPage() {
 
   const renderDecksByRank = (rank: Rank) => (
     <div className="flex flex-col justify-center items-center ">
-      <div className="fixed inset-0 -z-10">
-        <Image
-          src="/test3.jpg"
-          alt="Background"
-          layout="fill"
-          objectFit="cover"
-          priority
-        />
-      </div>
-
       <h3 className="text-2xl font-bold mb-4 text-center">Rank {rank}</h3>
-      <div className="flex flex-row gap-4">
+      <div className="flex flex-row gap-4 flex-wrap justify-center items-center  ">
         {sortedDecks
           .filter((deck) => deck.rank === rank)
           .map((deck) => (
@@ -60,8 +50,17 @@ export default function DecksPage() {
   );
 
   return (
-    <div className="p-8">
-      <h1 className="text-4xl font-bold mb-6">Liste des Decks</h1>
+    <div className="p-8 m-8 bg-[#301D47] bg-opacity-70  flex flex-col justify-center items center rounded-lg">
+      <div className="fixed inset-0 -z-10">
+        <Image
+          src="/test3.jpg"
+          alt="Background"
+          layout="fill"
+          objectFit="cover"
+          priority
+        />
+      </div>
+      <h1 className="text-4xl font-bold mb-6 text-center">Liste des Decks</h1>
       <div className="flex flex-col flex-wrap gap-6">
         {renderDecksByRank("S")}
         {renderDecksByRank("A")}
