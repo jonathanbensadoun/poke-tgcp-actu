@@ -2,12 +2,12 @@ import { PokeballLeft, PokeballRight } from "@/components/pokeball";
 import deckData from "@/data/decks.json"; // Vérifie que le chemin est correct
 import Image from "next/image";
 
-export default function DeckDetails({
+export default async function DeckDetails({
   params,
 }: {
   params: { nameImg: string };
 }) {
-  const { nameImg } = params;
+  const { nameImg } = await params;
   console.log(nameImg);
   // Récupère les données du deck correspondant à l'URL
   const deck = deckData.find((deck) => deck.nameImg === nameImg);
