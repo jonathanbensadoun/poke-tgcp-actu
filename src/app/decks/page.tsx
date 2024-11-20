@@ -36,7 +36,7 @@ export default function DecksPage() {
                 <Image
                   src={`/images/decks/${deck.nameImg}.png`}
                   alt={`Carte Pokémon TCG Pocket miniature du deck ${deck.nameImg} `}
-                  width={300}
+                  width={500}
                   height={0}
                   style={{ width: "auto", height: "auto" }}
                   priority
