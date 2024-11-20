@@ -17,10 +17,10 @@ export default {
         "slide-up": "slideUp 1s ease-in-out",
         opacity: "opacity 0.5s ease-in-out",
         blink: "blink 2s linear infinite ",
-        bounce: "bounce 6s ease-in-out infinite",
+        bounce: "bounce 6s ease infinite",
         bounce200: "bounce 1s infinite 200ms",
         bounce400: "bounce 5s ease-in-out infinite 1000ms",
-        size: "size 6s ease-in-out infinite",
+        size: "size 6.5s ease infinite",
       },
       colors: {
         background: "hsl(var(--background))",
@@ -79,9 +79,9 @@ export default {
           },
         },
         size: {
-          "0%": { transform: "scale(0.3)" },
-          "50%": { transform: "scale(1)" },
-          "100%": { transform: "scale(0.3)" },
+          "0%": { transform: "scale(1)" },
+          "50%": { transform: "scale(0.2)" },
+          "100%": { transform: "scale(1)" },
         },
         blink: {
           "0%, 100%": { opacity: "0" },

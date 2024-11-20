@@ -2,12 +2,12 @@ import { PokeballLeft, PokeballRight } from "@/components/pokeball";
 import deckData from "@/data/decks.json"; // Vérifie que le chemin est correct
 import Image from "next/image";
 
-export default async function DeckDetails({
+export default function DeckDetails({
   params,
 }: {
   params: { nameImg: string };
 }) {
-  const { nameImg } = await params;
+  const { nameImg } = params;
   // Récupère les données du deck correspondant à l'URL
   const deck = deckData.find((deck) => deck.nameImg === nameImg);
 
@@ -24,7 +24,7 @@ export default async function DeckDetails({
   }
 
   return (
-    <div className="p-8 flex flex-col justify-center items-center min-h-screen">
+    <div className="p-8 flex flex-col justify-center items-center min-h-screen rounded-lg bg-[#301D47] bg-opacity-50 backdrop-blur-lg  m-4 lg:mx-60">
       <h1 className="text-4xl font-bold mb-4">{deck.name}</h1>
       <p className=" mb-6">{deck.description}</p>
       <PokeballRight />
@@ -50,11 +50,11 @@ export default async function DeckDetails({
         <div className="flex flex-col justify-center items-center">
           <PokeballLeft />
           {deck.description_alternate && (
-            <div className="w-1/2">
-              <p className="text-gray-700 mt-6">{deck.description_alternate}</p>
+            <div className="w-2/3 my-8">
+              <p className=" mt-6">{deck.description_alternate}</p>
             </div>
           )}
-          <ul className="flex flex-row justify-center items-center flex-wrap">
+          <ul className="flex flex-row justify-center items-center flex-wrap ">
             {deck.alternat.map((card, index) => (
               <li
                 key={index}
