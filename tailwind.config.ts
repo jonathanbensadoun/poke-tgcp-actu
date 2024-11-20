@@ -9,7 +9,11 @@ export default {
   ],
   theme: {
   	extend: {
+		spacing: {
+			'screen': '100vh'
+		  },
   		colors: {
+			
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

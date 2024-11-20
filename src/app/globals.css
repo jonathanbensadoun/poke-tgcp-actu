@@ -9,6 +9,9 @@ body {
 @layer base {
   :root {
     --gradient-background: linear-gradient(45deg, #805aad 40%, #0f031d);
+    --background: 270, 32%, 51%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
