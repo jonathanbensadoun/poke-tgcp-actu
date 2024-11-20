@@ -1,12 +1,11 @@
 "use client";
 import React from "react";
-// import Image from "next/image";
 import Link from "next/link";
-import deckData from "@/data/decks.json"; // Vérifie que le chemin est correct
+import deckData from "@/data/decks.json";
 import Image from "next/image";
 
 // Définir le type des données des decks
-type Rank = "S" | "A" | "B"; // Les valeurs possibles pour `rank`
+type Rank = "S" | "A" | "B" | "Mention Honorable"; // Ajout de "Mention Honorable"
 type Deck = {
   id: number;
   name: string;
@@ -17,13 +16,18 @@ type Deck = {
 export default function DecksPage() {
   // Assure TypeScript que deckData est de type Deck[]
   const sortedDecks = (deckData as Deck[]).sort((a, b) => {
-    const rankOrder: { [key in Rank]: number } = { S: 1, A: 2, B: 3 };
+    const rankOrder: { [key in Rank]: number } = {
+      S: 1,
+      A: 2,
+      B: 3,
+      "Mention Honorable": 4,
+    };
     return rankOrder[a.rank] - rankOrder[b.rank];
   });
 
   const renderDecksByRank = (rank: Rank) => (
     <div className="flex flex-col justify-center items-center ">
-      <h3 className="text-2xl font-bold mb-4 text-center">Rank {rank}</h3>
+      <h3 className="text-2xl font-bold mb-4 text-center">Rank: {rank}</h3>
       <div className="flex flex-row gap-4 flex-wrap justify-center items-center  ">
         {sortedDecks
           .filter((deck) => deck.rank === rank)
@@ -60,11 +64,12 @@ export default function DecksPage() {
           priority
         />
       </div>
-      <h1 className="text-4xl font-bold mb-6 text-center">Liste des Decks</h1>
+      <h1 className="text-5xl font-bold mb-6 text-center">Liste des Decks</h1>
       <div className="flex flex-col flex-wrap gap-6">
         {renderDecksByRank("S")}
         {renderDecksByRank("A")}
         {renderDecksByRank("B")}
+        {renderDecksByRank("Mention Honorable")}
       </div>
     </div>
   );
