@@ -68,7 +68,7 @@ const Navbar: React.FC = () => {
             <FaTwitter />
           </Link>
         </div>
-        <div className="flex flex-col justify-center items-end lg:hidden  bg-gray-800 text-white p-4 ">
+        <div className="flex flex-col justify-center items-end lg:hidden   text-white p-4 ">
           <button
             onClick={toggleMenu}
             className="text-white focus:outline-none"

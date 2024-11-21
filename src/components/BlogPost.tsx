@@ -1,6 +1,8 @@
 "use client";
 
 import React from "react";
+import { Button } from "./ui/button";
+import Link from "next/link";
 
 interface BlogPostProps {
   title: string;
@@ -22,6 +24,9 @@ const BlogPost: React.FC<BlogPostProps> = ({
       <h3 className="text-2xl font-bold mb-2">{title}</h3>
       <p className="text-gray-500 mb-4">{`Par ${author} | ${date}`}</p>
       <div className="prose prose-lg">{content}</div>
+      <Link href={`/blog/${title.replace(", ", "_")}`}>
+        <Button className="mt-4">Lire la suite</Button>
+      </Link>
     </article>
   );
 };

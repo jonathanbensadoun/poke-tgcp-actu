@@ -55,7 +55,7 @@ const CardsPage: React.FC = () => {
             height={400}
             style={{ width: "auto", height: "auto" }}
             priority={card.id === "A1-001"}
-            className="rounded-2xl"
+            className="rounded-lg"
           />
         </div>
       ))}
