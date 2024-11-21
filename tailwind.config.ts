@@ -15,7 +15,9 @@ export default {
       animation: {
         "slide-down": "slideDown 1s ease-in-out",
         "slide-up": "slideUp 1s ease-in-out",
-        opacity: "opacity 0.5s ease-in-out",
+
+        opacity: "opacity 1.5s ease 3",
+
         blink: "blink 2s linear infinite ",
         bounce: "bounce 6s ease infinite",
         bounce200: "bounce 1s infinite 200ms",
@@ -104,5 +106,6 @@ export default {
       },
     },
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;

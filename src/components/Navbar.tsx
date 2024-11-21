@@ -1,14 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import {
-  FaTwitch,
-  FaYoutube,
-  FaTiktok,
-  FaTwitter,
-  FaBars,
-  FaTimes,
-} from "react-icons/fa";
+import { FaTwitch, FaYoutube, FaTiktok, FaBars, FaTimes } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,7 +59,7 @@ const Navbar: React.FC = () => {
             rel="noopener noreferrer"
             className="hover:text-gray-400"
           >
-            <FaTwitter />
+            <FaXTwitter />
           </Link>
         </div>
         <div className="flex flex-col justify-center items-end lg:hidden   text-white p-4 ">
@@ -138,7 +132,7 @@ const Navbar: React.FC = () => {
                     className="hover:text-gray-400"
                     onClick={toggleMenu}
                   >
-                    <FaTwitter />
+                    <FaXTwitter />
                   </Link>
                 </div>
               </div>
