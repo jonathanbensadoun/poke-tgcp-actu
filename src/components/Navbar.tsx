@@ -99,7 +99,7 @@ const Navbar: React.FC = () => {
                 </Link>
                 <div className="flex flex-row justify-center items-center gap-4 w-full">
                   <Link
-                    href="https://www.twitch.tv"
+                    href="https://twitch.tv/driinja"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gray-400"
@@ -117,7 +117,7 @@ const Navbar: React.FC = () => {
                     <FaYoutube />
                   </Link>
                   <Link
-                    href="https://www.tiktok.com"
+                    href="https://www.tiktok.com/@driinja"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gray-400"
@@ -126,7 +126,7 @@ const Navbar: React.FC = () => {
                     <FaTiktok />
                   </Link>
                   <Link
-                    href="https://www.twitter.com"
+                    href="https://x.com/Driinja?t=BkkC5zc7iJ7kMxXeFB1bEg&s=09"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gray-400"
