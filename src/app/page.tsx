@@ -12,9 +12,9 @@ export default function Home() {
     <>
       {/* Hero Section avec le texte */}
       <div className="relative z-10 p-4 flex items-center justify-center h-[80vh]">
-        <div className="flex flex-row justify-center items-center">
-          <div className="w-full lg:w-2/4 py-8 flex flex-col justify-center items-center  bg-[#301D47] bg-opacity-60  rounded-lg p-4 gap-8 ">
-            <h2 className="text-2xl font-bold  flex flex-col gap-2 text-center ">
+        <div className="flex flex-row justify-center items-center ">
+          <div className="w-full lg:w-2/4 py-8 flex flex-col justify-center items-center rounded-lg p-4 gap-8 mt-64 xl:mt-0">
+            <h2 className="text-2xl font-bold  flex flex-col gap-2 text-center text-shadow-lg   ">
               Bienvenue sur Poké TGCP Actu ! Votre destination incontournable
               pour tout savoir sur l’univers du jeu Pokémon TCG Pocket ! Que
               vous soyez un collectionneur passionné, un stratège aguerri ou un
@@ -23,7 +23,7 @@ export default function Home() {
               L’aventure commence ici, sur Poké TGCP Actu !
             </h2>
             <Link href="/decks">
-              <Button className="rounded-full bg-[#301D47] hover:bg-[#382155]  hover:text-[#FFCB05] ">
+              <Button className="rounded-full bg-[#301D47] hover:bg-[#382155]  hover:text-[#FFCB05] h-16 text-lg shadow-md">
                 Découvrir les decks
               </Button>
             </Link>

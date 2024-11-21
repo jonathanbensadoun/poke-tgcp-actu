@@ -15,9 +15,9 @@ const Navbar: React.FC = () => {
     <nav className="lg:flex lg:justify-center lg:items-center sticky top-0 z-20">
       <div className="flex flex-row lg:flex-row items-center justify-between p-4 bg-[#301D47] text-[#FFCB05] bg-opacity-50 backdrop-blur-lg lg:rounded-b-lg lg:w-4/5 shadow">
         <Link href="/" className="hover:text-gray-400">
-          <h1 className="text-xl font-bold">Poké TCGP Actu</h1>
+          <h1 className="text-xl font-bold lg:text-2xl">Poké TCGP Actu</h1>
         </Link>
-        <div className="hidden lg:flex lg:items-center lg:space-x-4 mx-auto">
+        <div className="hidden lg:flex lg:items-center lg:space-x-4 mx-auto lg:text-2xl">
           <Link href="/" className="hover:text-gray-400">
             News
           </Link>
@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
             Liste des cartes
           </Link>
         </div>
-        <div className="hidden lg:flex lg:items-center lg:space-x-4">
+        <div className="hidden lg:flex lg:items-center lg:space-x-4 lg:text-2xl">
           <Link
             href="https://twitch.tv/driinja"
             target="_blank"

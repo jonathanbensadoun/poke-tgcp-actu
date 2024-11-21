@@ -8,7 +8,7 @@ body {
 
 @layer base {
   :root {
-    --gradient-background: linear-gradient(45deg, #805aad 40%, #0f031d);
+    --gradient-background: linear-gradient(45deg, #432a6b 40%, #432a6b);
     --background: 270, 32%, 51%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
@@ -74,5 +74,10 @@ body {
   body {
     @apply text-foreground text-white;
     background: var(--gradient-background);
+  }
+}
+@layer utilities {
+  .text-shadow-lg {
+    text-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
   }
 }
