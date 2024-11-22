@@ -2,7 +2,6 @@
 import React from "react";
 import BlogPost from "@/components/BlogPost";
 import { PokeballLeft } from "@/components/pokeball";
-import Header from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import ScrollToTopButton from "@/components/SrollToTop";
 import Link from "next/link";
@@ -30,8 +29,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <Header />
 
       {/* Main Content */}
       <main className="relative z-10 mt-[6vh] ">
