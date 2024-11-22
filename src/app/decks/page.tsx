@@ -55,7 +55,7 @@ export default function DecksPage() {
 
   return (
     <div className="p-8 m-8 bg-[#301D47] bg-opacity-70  flex flex-col justify-center items center rounded-lg">
-      <div className="fixed inset-0 -z-10">
+      {/* <div className="fixed inset-0 -z-10">
         <Image
           src="/test3.jpg"
           alt="Background"
@@ -63,9 +63,9 @@ export default function DecksPage() {
           objectFit="cover"
           priority
         />
-      </div>
+      </div> */}
       <h1 className="text-5xl font-bold mb-6 text-center">Liste des Decks</h1>
-      <div className="flex flex-col flex-wrap gap-6">
+      <div className="flex flex-col flex-wrap gap-6  z-20 ">
         {renderDecksByRank("S")}
         {renderDecksByRank("A")}
         {renderDecksByRank("B")}

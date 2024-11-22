@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import cardData from "@/data/cards.json";
+import ScrollToTopButton from "@/components/SrollToTop";
 
 interface Card {
   id: string;
@@ -57,6 +58,7 @@ const CardsPage: React.FC = () => {
             priority={card.id === "A1-001"}
             className="rounded-lg"
           />
+          <ScrollToTopButton />
         </div>
       ))}
     </div>
