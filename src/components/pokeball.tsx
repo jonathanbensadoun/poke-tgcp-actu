@@ -33,9 +33,9 @@ const Pokeball: React.FC = () => {
 
 export default Pokeball;
 const PokeballFront: React.FC = () => (
-  <div className="relative flex flex-col justify-center items-center mb-4 ">
+  <div className="relative flex flex-col justify-center items-center  ">
     {/* <div className="absolute bottom-2 w-[70%] h-1 bg-opacity-30 bg-black rounded-full animate-size " /> */}
-    <div className="relative w-24 h-24 rounded-full bg-red-500 border-4 border-black my-4animate-bounce shadow-lg shadow-violet-700 animate-bounce">
+    <div className="relative w-24 h-24 rounded-full bg-red-500 border-4 my-4  border-black my-4animate-bounce shadow-lg shadow-violet-700 animate-bounce">
       <div className="absolute bottom-0 w-full h-1/2 bg-gray-200 rounded-b-full border-b-4 border-t-2 border-t-black" />
       <div className="absolute bottom-16 right-4 w-1 h-1 bg-gray-200 rounded-b-full border-b-4 rounded-s-full" />
       <div className="absolute bottom-[4.3rem] right-6 w-3 h-3 bg-gray-200 rounded-b-full border-b-4 rounded-full" />

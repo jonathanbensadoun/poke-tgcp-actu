@@ -48,7 +48,7 @@ const CardsPage: React.FC = () => {
           className="flex flex-col justify-center items-center text-gray-800 bg-white bg-opacity-25 p-2 rounded-lg shadow-lg w-2/5 sm:w-1/5 md:w-2/12 lg:w-2/12 xl:w-1/12  "
         >
           <Image
-            src={`/images/${card.id}.jpg`}
+            src={`/images/cards/${card.id}.jpg`}
             alt={`Carte Pokémon TCG Pocket ${card.id} de type ${getTypeName(
               String(card.type)
             )} avec ${card.hp} points de vie et de stade ${card.stage}`}
