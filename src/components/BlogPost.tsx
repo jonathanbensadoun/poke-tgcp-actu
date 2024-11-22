@@ -1,9 +1,8 @@
 "use client";
 
-import React from "react";
-// import { Button } from "./ui/button";
-// import Link from "next/link";
+import React, { useState } from "react";
 import Image from "next/image";
+import { Button } from "./ui/button";
 
 interface BlogPostProps {
   title: string;
@@ -40,6 +39,8 @@ const BlogPost: React.FC<BlogPostProps> = ({
   content3,
   conclusion,
 }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   return (
     <article className={`w-full lg:w-1/2 m-2 p-4 ${className}`}>
       <h3 className="text-2xl lg:text-3xl font-bold mb-2 my-4">{title}</h3>
@@ -62,44 +63,51 @@ const BlogPost: React.FC<BlogPostProps> = ({
         ))}
       </div>
       <div className="prose prose-lg my-4">{content1}</div>
-      <h4 className="text-xl font-semibold mt-4 my-4 text-center lg:text-2xl ">
-        {subtitle2}
-      </h4>
-      <div className="flex flex-row justify-center items-center flex-wrap gap-4 my-4">
-        {ImgPartie2.map((img, index) => (
-          <Image
-            key={index}
-            src={img}
-            alt={`image illustrant la partie 2 de l'article `}
-            width={150}
-            height={400}
-            // style={{ width: "auto", height: "auto" }}
-            className="rounded-lg"
-          />
-        ))}
+      {isExpanded && (
+        <>
+          <h4 className="text-xl font-semibold mt-4 my-4 text-center lg:text-2xl ">
+            {subtitle2}
+          </h4>
+          <div className="flex flex-row justify-center items-center flex-wrap gap-4 my-4">
+            {ImgPartie2.map((img, index) => (
+              <Image
+                key={index}
+                src={img}
+                alt={`image illustrant la partie 2 de l'article `}
+                width={150}
+                height={400}
+                className="rounded-lg"
+              />
+            ))}
+          </div>
+          <div className="prose prose-lg my-4">{content2}</div>
+          <h4 className="text-xl font-semibold mt-4 my-4 text-center lg:text-2xl ">
+            {subtitle3}
+          </h4>
+          <div className="flex flex-row justify-center items-center flex-wrap gap-4 my-4">
+            {ImgPartie3.map((img, index) => (
+              <Image
+                key={index}
+                src={img}
+                alt={`image illustrant la partie 3 de l'article `}
+                width={500}
+                height={400}
+                className="rounded-lg"
+              />
+            ))}
+          </div>
+          <div className="prose prose-lg my-4">{content3}</div>
+          <div className="prose prose-lg mt-4 my-4">{conclusion}</div>
+        </>
+      )}
+      <div className="flex justify-center items-center ">
+        <Button
+          onClick={() => setIsExpanded(!isExpanded)}
+          className="rounded-full bg-[#251636] hover:bg-[#382155]  hover:text-[#FFCB05]  py-6 px-12 text-lg shadow-md"
+        >
+          {isExpanded ? "Voir moins" : "Voir plus"}
+        </Button>
       </div>
-      <div className="prose prose-lg my-4">{content2}</div>
-      <h4 className="text-xl font-semibold mt-4 my-4 text-center lg:text-2xl ">
-        {subtitle3}
-      </h4>
-      <div className="flex flex-row justify-center items-center flex-wrap gap-4 my-4">
-        {ImgPartie3.map((img, index) => (
-          <Image
-            key={index}
-            src={img}
-            alt={`image illustrant la partie 3 de l'article `}
-            width={500}
-            height={400}
-            // style={{ width: "auto", height: "auto" }}
-            className="rounded-lg"
-          />
-        ))}
-      </div>
-      <div className="prose prose-lg my-4">{content3}</div>
-      <div className="prose prose-lg mt-4 my-4">{conclusion}</div>
-      {/* <Link href={`/blog/${title.replace(", ", "_")}`}>
-        <Button className="mt-4">Lire la suite</Button>
-      </Link> */}
     </article>
   );
 };
