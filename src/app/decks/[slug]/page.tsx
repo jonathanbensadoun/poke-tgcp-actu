@@ -12,7 +12,7 @@ export default async function DeckDetails({ params }: { params: tParams }) {
   if (!deck) {
     return (
       <div className="p-8 text-center">
-        <h1 className="text-3xl font-bold">Deck introuvable</h1>
+        <h2 className="text-3xl font-bold">Deck introuvable</h2>
         <p className="text-gray-500">
           Vérifiez l&apos;URL ou revenez à la liste des decks.
         </p>
@@ -22,10 +22,10 @@ export default async function DeckDetails({ params }: { params: tParams }) {
 
   return (
     <div className="p-8 flex flex-col justify-center items-center min-h-screen rounded-lg bg-[#301D47] bg-opacity-50 backdrop-blur-lg  m-4 lg:mx-60">
-      <h1 className="text-4xl font-bold mb-4">{deck.name}</h1>
+      <h2 className="text-4xl font-bold mb-4">{deck.name}</h2>
       <p className=" mb-6">{deck.description}</p>
       <PokeballRight />
-      <h2 className="text-2xl font-semibold mb-4">Cartes du deck :</h2>
+      <h3 className="text-2xl font-semibold mb-4">Cartes du deck :</h3>
       <ul className="flex flex-row justify-center items-center flex-wrap">
         {deck.deck.map((card, index) => (
           <li

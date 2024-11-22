@@ -65,7 +65,7 @@ export default function DecksPage() {
           priority
         />
       </div> */}
-      <h1 className="text-5xl font-bold mb-6 text-center">Liste des Decks</h1>
+      <h2 className="text-5xl font-bold mb-6 text-center">Liste des Decks</h2>
       <div className="flex flex-col flex-wrap gap-6  z-20 ">
         {renderDecksByRank("S")}
         {renderDecksByRank("A")}
