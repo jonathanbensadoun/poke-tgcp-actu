@@ -33,7 +33,7 @@ export default async function DeckDetails({ params }: { params: tParams }) {
             className="w-[8rem] sm:w-1/5 md:w-2/12 lg:w-3/12 xl:w-[12rem] p-1"
           >
             <Image
-              src={`/images/${card}.jpg`}
+              src={`/images/cards/${card}.jpg`}
               alt={`Deck Pokémon TCG Pocket ${deck.id} Card ${card}`}
               width={300}
               height={400}
