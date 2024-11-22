@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="lg:flex lg:justify-center lg:items-center sticky top-0 z-20">
+    <nav className="lg:flex lg:justify-center lg:items-center fixed top-0  right-0 left-0 z-50">
       <div className="flex flex-row lg:flex-row items-center justify-between p-4 bg-[#301D47] text-[#FFCB05] bg-opacity-50 backdrop-blur-lg lg:rounded-b-lg lg:w-4/5 shadow">
         <Link href="/" className="hover:text-gray-400">
           <h1 className="text-xl font-bold lg:text-2xl">Poké TCGP Actu</h1>

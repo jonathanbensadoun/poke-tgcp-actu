@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import deckData from "@/data/decks.json";
 import Image from "next/image";
+import ScrollToTopButton from "@/components/SrollToTop";
 
 // Définir le type des données des decks
 type Rank = "S" | "A" | "B" | "Mention Honorable"; // Ajout de "Mention Honorable"
@@ -71,6 +72,7 @@ export default function DecksPage() {
         {renderDecksByRank("B")}
         {renderDecksByRank("Mention Honorable")}
       </div>
+      <ScrollToTopButton />
     </div>
   );
 }
