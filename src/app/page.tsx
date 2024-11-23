@@ -17,12 +17,12 @@ export default function Home() {
         <div className="flex flex-row justify-center items-center ">
           <div className="w-full lg:w-2/4 py-8 flex flex-col justify-center items-center rounded-lg p-4 gap-8 mt-64 xl:mt-0">
             <h2 className="text-xl lg:text-2xl font-bold  flex flex-col gap-2 text-center text-shadow-lg   ">
-              Bienvenue sur Poké tcgP Actu ! Votre destination incontournable
+              Bienvenue sur Poké TCGP Actu ! Votre destination incontournable
               pour tout savoir sur l’univers du jeu Pokémon TCG Pocket ! Que
               vous soyez un collectionneur passionné, un stratège aguerri ou un
-              dresseur en herbe, Poké tcgP Actu est là pour vous aider à devenir
+              dresseur en herbe, Poké TCGP Actu est là pour vous aider à devenir
               le meilleur dresseur et dominer le jeu Pokémon TCG Pocket ?
-              L’aventure commence ici, sur Poké tcgP Actu !
+              L’aventure commence ici, sur Poké TCGP Actu !
             </h2>
             <Link href="/decks">
               <Button className="rounded-full bg-[#301D47] hover:bg-[#382155]  hover:text-[#FFCB05] h-16 text-lg shadow-md">
