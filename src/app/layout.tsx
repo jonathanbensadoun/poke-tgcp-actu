@@ -19,19 +19,19 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Pokémon TCGP Actu - Actualités et Stratégies",
   description:
-    "Découvrez les dernières actualités, stratégies et astuces pour le jeu de cartes Pokémon, pokemon tgcp, pokemon tgc pocket.",
+    "Découvrez les dernières actualités, stratégies et astuces pour le jeu de cartes Pokémon, pokemon tcgp, pokemon tcg pocket.",
   icons: {
     icon: "/favicon.ico", // Icône de favicon
   },
   openGraph: {
     title: "Pokémon TCGP Actu - Actualités et Stratégies",
     description:
-      "Explorez tout ce qui concerne les stratégies et actualités Pokémon, pokemon tgcp, pokemon tgc pocket. ",
-    url: "https://poke-tgcp-actu.netlify.app",
+      "Explorez tout ce qui concerne les stratégies et actualités Pokémon, pokemon tcgp, pokemon tcg pocket. ",
+    url: "https://poke-tcgp-actu.netlify.app",
     siteName: "Pokémon TCGP Actu",
     images: [
       {
-        url: "https://poke-tgcp-actu.netlify.app/fav.png",
+        url: "https://poke-tcgp-actu.netlify.app/fav.png",
         width: 1200,
         height: 630,
         alt: "Pokémon TCGP Actu logo",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     site: "@driinja",
     title: "Pokémon TCGP Actu - Actualités et Stratégies",
     description: "Découvrez les dernières actualités et stratégies Pokémon.",
-    images: ["https://poke-tgcp-actu.netlify.app/fav.png"],
+    images: ["https://poke-tcgp-actu.netlify.app/fav.png"],
   },
 };
 

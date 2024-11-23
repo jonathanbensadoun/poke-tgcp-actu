@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://poke-tgcp-actu.netlify.app/sitemap.xml
+Sitemap: https://poke-tcgp-actu.netlify.app/sitemap.xml
