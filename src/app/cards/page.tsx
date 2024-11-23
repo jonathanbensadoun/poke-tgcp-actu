@@ -43,11 +43,11 @@ const getTypeName = (type: string | number): string => {
 const CardsPage: React.FC = () => {
   const [cardId, setCardId] = useState("");
   return (
-    <div className="flex flex-wrap gap-2 justify-center items-center m-4 mt-24 lg:mt-20">
+    <div className="flex flex-wrap gap-2 justify-center items-center lg:m-4 mt-24 lg:mt-20">
       {cardData.map((card: Card) => (
         <div
           key={card.id}
-          className="flex flex-col justify-center items-center text-gray-800 bg-white bg-opacity-25 p-2 rounded-lg shadow-lg w-2/5 sm:w-1/5 md:w-2/12 lg:w-2/12 xl:w-1/12  "
+          className="flex flex-col justify-center items-center rounded-lg shadow-lg w-1/4 sm:w-1/5 md:w-2/12 lg:w-2/12 xl:w-1/12  "
         >
           <Image
             src={`/images/cards/${card.id}.jpg`}
@@ -58,7 +58,7 @@ const CardsPage: React.FC = () => {
             height={400}
             style={{ width: "auto", height: "auto" }}
             priority={card.id === "A1-001"}
-            className="rounded-lg"
+            className="rounded-lg border-2 border-zinc-300"
             onClick={() => setCardId(card.id)}
           />
           {cardId === card.id && (
