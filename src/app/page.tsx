@@ -5,7 +5,7 @@ import {
   PokeballFront,
   PokeballLeft,
   PokeballRight,
-} from "@/components/Pokeball";
+} from "@/components/pokeball";
 import { Button } from "@/components/ui/button";
 import ScrollToTopButton from "@/components/SrollToTop";
 import Link from "next/link";

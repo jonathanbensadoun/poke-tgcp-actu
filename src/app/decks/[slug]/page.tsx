@@ -1,4 +1,4 @@
-import { PokeballLeft, PokeballRight } from "@/components/Pokeball";
+import { PokeballLeft, PokeballRight } from "@/components/pokeball";
 import deckData from "@/data/decks.json"; // Vérifie que le chemin est correct
 import Image from "next/image";
 type tParams = Promise<{ slug: string }>;
