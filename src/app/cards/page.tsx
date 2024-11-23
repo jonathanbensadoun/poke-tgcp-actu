@@ -1,8 +1,9 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import cardData from "@/data/cards.json";
 import ScrollToTopButton from "@/components/SrollToTop";
+import ZoomableImage from "@/components/ZoomableImage";
 
 interface Card {
   id: string;
@@ -40,8 +41,9 @@ const getTypeName = (type: string | number): string => {
 };
 
 const CardsPage: React.FC = () => {
+  const [cardId, setCardId] = useState("");
   return (
-    <div className="flex flex-wrap gap-2 justify-center items-center m-4">
+    <div className="flex flex-wrap gap-2 justify-center items-center m-4 mt-24 lg:mt-20">
       {cardData.map((card: Card) => (
         <div
           key={card.id}
@@ -57,7 +59,16 @@ const CardsPage: React.FC = () => {
             style={{ width: "auto", height: "auto" }}
             priority={card.id === "A1-001"}
             className="rounded-lg"
+            onClick={() => setCardId(card.id)}
           />
+          {cardId === card.id && (
+            <div onClick={() => setCardId("")}>
+              <ZoomableImage
+                src={`/images/cards/${card.id}.jpg`}
+                alt="Exemple de carte Pokémon"
+              />
+            </div>
+          )}
           <ScrollToTopButton />
         </div>
       ))}

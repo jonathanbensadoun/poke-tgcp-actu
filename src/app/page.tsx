@@ -5,7 +5,7 @@ import {
   PokeballFront,
   PokeballLeft,
   PokeballRight,
-} from "@/components/pokeball";
+} from "@/components/Pokeball";
 import { Button } from "@/components/ui/button";
 import ScrollToTopButton from "@/components/SrollToTop";
 import Link from "next/link";
@@ -13,10 +13,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="relative z-10 p-4 flex items-center justify-center h-[80vh]">
+      <div className="relative z-10 p-4 flex items-center justify-center h-[90vh] lg:h-[80vh]">
         <div className="flex flex-row justify-center items-center ">
           <div className="w-full lg:w-2/4 py-8 flex flex-col justify-center items-center rounded-lg p-4 gap-8 mt-64 xl:mt-0">
-            <h2 className="text-xl lg:text-2xl font-bold  flex flex-col gap-2 text-center text-shadow-lg   ">
+            <h2 className="text-md lg:text-2xl font-bold  flex flex-col gap-2 text-center text-shadow-lg   ">
               Bienvenue sur Poké TCGP Actu ! Votre destination incontournable
               pour tout savoir sur l’univers du jeu Pokémon TCG Pocket ! Que
               vous soyez un collectionneur passionné, un stratège aguerri ou un

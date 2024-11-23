@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import React from "react";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -68,8 +69,8 @@ export default function RootLayout({
           <Navbar />
           <Header />
         </header>
-        <main className="absolute pb-20 lg:pb-14 ">{children}</main>
-        <footer>
+        <main className="absolute lg:pb-14 ">{children}</main>
+        <footer className="lg:fixed lg:bottom-0 w-full z-20 hidden lg:block">
           <Footer />
         </footer>
       </body>

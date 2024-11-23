@@ -55,7 +55,7 @@ export default function DecksPage() {
   );
 
   return (
-    <div className="p-8 m-8 bg-[#301D47] bg-opacity-70  flex flex-col justify-center items center rounded-lg">
+    <div className="p-8 m-8 bg-[#301D47] bg-opacity-70  flex flex-col justify-center items center rounded-lg mt-24 lg:mt-20">
       {/* <div className="fixed inset-0 -z-10">
         <Image
           src="/test3.jpg"
