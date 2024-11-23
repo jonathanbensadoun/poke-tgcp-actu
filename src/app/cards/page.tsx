@@ -4,6 +4,7 @@ import Image from "next/image";
 import cardData from "@/data/cards.json";
 import ScrollToTopButton from "@/components/SrollToTop";
 import ZoomableImage from "@/components/ZoomableImage";
+import { Skeleton } from "@/components/ui/skeleton";
 
 interface Card {
   id: string;
@@ -12,6 +13,7 @@ interface Card {
   stage: string;
   type: string | number;
 }
+
 const getTypeName = (type: string | number): string => {
   const typeStr = typeof type === "number" ? type.toString() : type;
   switch (typeStr) {
@@ -42,13 +44,20 @@ const getTypeName = (type: string | number): string => {
 
 const CardsPage: React.FC = () => {
   const [cardId, setCardId] = useState("");
+  const [loading, setLoading] = useState<{ [key: string]: boolean }>({});
+
+  const handleImageLoad = (id: string) => {
+    setLoading((prev) => ({ ...prev, [id]: false }));
+  };
+
   return (
-    <div className="flex flex-wrap gap-2 justify-center items-center lg:m-4 mt-24 lg:mt-20">
+    <div className="flex flex-wrap gap-2 justify-center items-center lg:m-4 mt-24 lg:mt-20 ">
       {cardData.map((card: Card) => (
         <div
           key={card.id}
-          className="flex flex-col justify-center items-center rounded-lg shadow-lg w-1/4 sm:w-1/5 md:w-2/12 lg:w-2/12 xl:w-1/12  "
+          className="flex flex-col justify-center items-center rounded-lg shadow-lg w-1/4 sm:w-1/5 md:w-2/12 lg:w-2/12 xl:w-1/12"
         >
+          {loading[card.id] && <Skeleton className="h-[400px] w-[300px]" />}
           <Image
             src={`/images/cards/${card.id}.jpg`}
             alt={`Carte Pokémon TCG Pocket ${card.id} de type ${getTypeName(
@@ -58,9 +67,11 @@ const CardsPage: React.FC = () => {
             height={400}
             style={{ width: "auto", height: "auto" }}
             priority={card.id === "A1-001"}
-            className="rounded-lg border-2 border-zinc-300"
+            className={`rounded-lg ${loading[card.id] ? "hidden" : ""}`}
             onClick={() => setCardId(card.id)}
+            onLoad={() => handleImageLoad(card.id)}
           />
+
           {cardId === card.id && (
             <div onClick={() => setCardId("")}>
               <ZoomableImage
