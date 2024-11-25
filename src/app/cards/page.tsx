@@ -62,7 +62,7 @@ const CardsPage: React.FC = () => {
         >
           {loading[card.id] && <Skeleton className="h-[400px] w-[300px]" />}
           <Image
-            quality={1}
+            quality={50}
             src={`/images/cards/${card.id}.jpg`}
             // loader={imageLoader}
             alt={`Carte Pokémon TCG Pocket ${card.id} de type ${getTypeName(
@@ -72,7 +72,7 @@ const CardsPage: React.FC = () => {
             height={400}
             style={{ width: "auto", height: "auto" }}
             priority={card.id === "A1-001"}
-            // className={`rounded-lg ${loading[card.id] ? "hidden" : ""}`}
+            className={`rounded-lg ${loading[card.id] ? "hidden" : ""}`}
             onClick={() => setCardId(card.id)}
             onLoad={() => handleImageLoad(card.id)}
           />
