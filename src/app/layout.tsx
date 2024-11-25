@@ -57,6 +57,11 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
+        <title>Pokémon TCGP Actu - Actualités et Stratégies</title>
+        <meta
+          name="description"
+          content="Découvrez les dernières actualités, stratégies et astuces pour le jeu de cartes Pokémon tgc pocket ."
+        />
         <meta
           name="google-site-verification"
           content="XCGQaSbNSir8BXvWV739ohmYGxYFoLqSU_VVN7WztuQ"
