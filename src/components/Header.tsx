@@ -6,14 +6,14 @@ const Header: React.FC = () => {
     <div className="fixed top-0 left-0 w-full h-[100vh]">
       {" "}
       {/* Réduit à 60vh au lieu de 100vh */}
-      <div className="absolute lg:inset-y-1/4 z-0">
-        {/* <Image
-          src="/giphy_1.gif"
-          alt="Background"
-          layout="fill"
-          objectFit="cover"
-          priority
-        /> */}
+      <Image
+        src="/bg_lavanville.jpg"
+        alt="Background"
+        layout="fill"
+        objectFit="cover"
+        priority
+      />
+      <div className="absolute ml-14 lg:ml-0 lg:inset-y-1/4 z-0">
         <Image
           src="/6190b541579ccdce26c4957664000c88.gif"
           alt="Background"

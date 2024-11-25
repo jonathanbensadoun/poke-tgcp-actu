@@ -13,10 +13,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="relative z-10 p-4 flex items-center justify-center h-[90vh] lg:h-[80vh]">
-        <div className="flex flex-row justify-center items-center ">
-          <div className="w-full lg:w-2/4 py-8 flex flex-col justify-center items-center rounded-lg p-4 gap-8 mt-64 xl:mt-0">
-            <h2 className="text-md lg:text-2xl font-bold  flex flex-col gap-2 text-center text-shadow-lg   ">
+      <div className="relative z-10 p-4 flex items-center justify-center h-[90vh] lg:h-[80vh] ">
+        <div className="flex flex-row justify-center items-center  ">
+          <div className="w-full lg:w-2/4 py-8 flex flex-col justify-center items-center rounded-3xl  p-4 gap-8 mt-64 xl:mt-0 bg-[#301D47] bg-opacity-80 ">
+            <h2 className="text-md lg:text-2xl font-bold  flex flex-col gap-2 text-center text-shadow-lg ">
               Bienvenue sur Poké TCGP Actu ! Votre destination incontournable
               pour tout savoir sur l’univers du jeu Pokémon TCG Pocket ! Que
               vous soyez un collectionneur passionné, un stratège aguerri ou un
@@ -67,7 +67,7 @@ export default function Home() {
               ]}
               ImgPartie3={["/images/Event_Decembre/partie_3/Miniset.jpg"]}
             />
-            <div className="flex justify-center lg:justify-end items-end w-full lg:w-1/2">
+            <div className="flex justify-center lg:justify-center items-end w-full lg:w-1/2">
               <PokeballLeft />
             </div>
 
@@ -85,7 +85,7 @@ export default function Home() {
               ImgPartie2={["/images/Ressource/partie_2/Pointwarning.jpg"]}
               ImgPartie3={["/images/Ressource/partie_3/Miniset.jpg"]}
             />
-            <div className="flex justify-center lg:justify-start w-full lg:w-1/2">
+            <div className="flex justify-center lg:justify-center w-full lg:w-1/2">
               <PokeballRight />
             </div>
             <BlogPost

@@ -1,21 +1,26 @@
 import type { Metadata } from "next";
 import React from "react";
-import localFont from "next/font/local";
+// import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Fredoka } from "next/font/google";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const fredoka = Fredoka({
+  subsets: ["latin"],
+  weight: ["400", "700"],
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+// const geistSans = localFont({
+//   src: "./fonts/GeistVF.woff",
+//   variable: "--font-geist-sans",
+//   weight: "100 900",
+// });
+// const geistMono = localFont({
+//   src: "./fonts/GeistMonoVF.woff",
+//   variable: "--font-geist-mono",
+//   weight: "100 900",
+// });
 
 export const metadata: Metadata = {
   title: "Pokémon TCGP Actu - Actualités et Stratégies",
@@ -67,9 +72,7 @@ export default function RootLayout({
           content="XCGQaSbNSir8BXvWV739ohmYGxYFoLqSU_VVN7WztuQ"
         />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#3d2368] `}
-      >
+      <body className={`${fredoka.className}  antialiased bg-[#3d2368] `}>
         <header>
           <Navbar />
           <Header />

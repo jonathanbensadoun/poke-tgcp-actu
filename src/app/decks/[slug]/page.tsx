@@ -21,7 +21,7 @@ export default async function DeckDetails({ params }: { params: tParams }) {
   }
 
   return (
-    <div className="p-8 flex flex-col justify-center items-center min-h-screen rounded-lg bg-[#301D47] bg-opacity-50 backdrop-blur-lg  m-4 lg:mx-60">
+    <div className="p-8 flex flex-col justify-center items-center min-h-screen rounded-lg bg-[#301D47] bg-opacity-50 backdrop-blur-lg  m-4 lg:mx-60 mt-24 lg:mt-20">
       <h2 className="text-4xl font-bold mb-4">{deck.name}</h2>
       <p className=" mb-6">{deck.description}</p>
       <PokeballRight />

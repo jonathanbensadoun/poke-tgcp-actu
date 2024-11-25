@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
             <FaTwitch />
           </Link>
           <Link
-            href="https://www.youtube.com"
+            href="https://www.youtube.com/@driinja"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-violet-700"
@@ -108,7 +108,7 @@ const Navbar: React.FC = () => {
                     <FaTwitch />
                   </Link>
                   <Link
-                    href="https://www.youtube.com"
+                    href="https://www.youtube.com/@driinja"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-violet-700"
