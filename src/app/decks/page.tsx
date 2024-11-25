@@ -39,6 +39,7 @@ export default function DecksPage() {
             >
               <Link href={`/decks/${deck.nameImg}`}>
                 <Image
+                  quality={50}
                   src={`/images/decks/${deck.nameImg}.png`}
                   alt={`Carte Pokémon TCG Pocket miniature du deck ${deck.nameImg} `}
                   width={500}

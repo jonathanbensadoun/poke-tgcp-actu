@@ -56,6 +56,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
           <h3 className="text-2xl lg:text-3xl font-bold mb-2 my-4">{title}</h3>
           <div className="flex flex-row items-center gap-2">
             <Image
+              quality={50}
               src={`/images/Avatar/${author}.png`}
               alt={`Avatar de l'auteur ${author} pour l'article ${title}`}
               width={50}
@@ -83,6 +84,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
                   ImgPartie1.length > 0 &&
                   ImgPartie1.map((img, index) => (
                     <Image
+                      quality={50}
                       key={index}
                       src={img}
                       alt={`image illustrant la partie 1 de l'article `}
@@ -109,6 +111,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
                   ImgPartie2.length > 0 &&
                   ImgPartie2.map((img, index) => (
                     <Image
+                      quality={50}
                       key={index}
                       src={img}
                       alt={`image illustrant la partie 2 de l'article `}
@@ -132,6 +135,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
                   ImgPartie3.length > 0 &&
                   ImgPartie3.map((img, index) => (
                     <Image
+                      quality={50}
                       key={index}
                       src={img}
                       alt={`image illustrant la partie 3 de l'article `}
@@ -154,6 +158,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
                   ImgPartie4.length > 0 &&
                   ImgPartie4.map((img, index) => (
                     <Image
+                      quality={50}
                       key={index}
                       src={img}
                       alt={`image illustrant la partie 4 de l'article `}
@@ -185,6 +190,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
           <h3 className="text-2xl lg:text-3xl font-bold mb-2 my-4">{title}</h3>
           <div className="flex flex-row items-center gap-2">
             <Image
+              quality={50}
               src={`/images/Avatar/${author}.png`}
               alt={`Avatar de l'auteur ${author} pour l'article ${title}`}
               width={50}
@@ -212,6 +218,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
                   ImgPartie1.length > 0 &&
                   ImgPartie1.map((img, index) => (
                     <Image
+                      quality={50}
                       key={index}
                       src={img}
                       alt={`image illustrant la partie 1 de l'article `}
@@ -238,6 +245,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
                   ImgPartie2.length > 0 &&
                   ImgPartie2.map((img, index) => (
                     <Image
+                      quality={50}
                       key={index}
                       src={img}
                       alt={`image illustrant la partie 2 de l'article `}
@@ -261,6 +269,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
                   ImgPartie3.length > 0 &&
                   ImgPartie3.map((img, index) => (
                     <Image
+                      quality={50}
                       key={index}
                       src={img}
                       alt={`image illustrant la partie 3 de l'article `}
@@ -283,6 +292,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
                   ImgPartie4.length > 0 &&
                   ImgPartie4.map((img, index) => (
                     <Image
+                      quality={50}
                       key={index}
                       src={img}
                       alt={`image illustrant la partie 4 de l'article `}
