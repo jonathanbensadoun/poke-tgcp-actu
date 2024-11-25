@@ -64,6 +64,20 @@ export default function RootLayout({
     <html lang="fr">
       <head>
         <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-7KBSC0DYJK"
+          strategy="afterInteractive"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-7KBSC0DYJK');
+            `,
+          }}
+        />
+        <Script
           id="google-tag-manager"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
