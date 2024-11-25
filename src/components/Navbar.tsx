@@ -73,7 +73,7 @@ const Navbar: React.FC = () => {
       </div>
       <div className="flex justify-end">
         {isOpen && (
-          <div className="bg-[#301D47] text-white w-1/3 flex p-4 rounded-bl-lg flex-col justify-center items-center absolute">
+          <div className="bg-[#301D47] bg-opacity-70 backdrop-blur-lg text-white w-1/3 flex p-4 rounded-bl-lg flex-col justify-center items-center absolute">
             <div className="block lg:hidden ">
               <div className="flex flex-col  space-y-4 ">
                 <Link

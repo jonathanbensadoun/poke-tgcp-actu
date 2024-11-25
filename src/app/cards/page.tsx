@@ -49,6 +49,9 @@ const CardsPage: React.FC = () => {
   const handleImageLoad = (id: string) => {
     setLoading((prev) => ({ ...prev, [id]: false }));
   };
+  // const imageLoader = ({ src, width, quality }) => {
+  //   return `/images/cards/A1-001.jpg`;
+  // };
 
   return (
     <div className="flex flex-wrap gap-2 justify-center items-center lg:m-4 mt-24 lg:mt-20 ">
@@ -59,7 +62,9 @@ const CardsPage: React.FC = () => {
         >
           {loading[card.id] && <Skeleton className="h-[400px] w-[300px]" />}
           <Image
+            quality={1}
             src={`/images/cards/${card.id}.jpg`}
+            // loader={imageLoader}
             alt={`Carte Pokémon TCG Pocket ${card.id} de type ${getTypeName(
               String(card.type)
             )} avec ${card.hp} points de vie et de stade ${card.stage}`}
@@ -67,7 +72,7 @@ const CardsPage: React.FC = () => {
             height={400}
             style={{ width: "auto", height: "auto" }}
             priority={card.id === "A1-001"}
-            className={`rounded-lg ${loading[card.id] ? "hidden" : ""}`}
+            // className={`rounded-lg ${loading[card.id] ? "hidden" : ""}`}
             onClick={() => setCardId(card.id)}
             onLoad={() => handleImageLoad(card.id)}
           />

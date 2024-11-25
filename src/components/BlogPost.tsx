@@ -54,7 +54,21 @@ const BlogPost: React.FC<BlogPostProps> = ({
       {type === 1 && (
         <article className={`w-full lg:w-1/2 m-2 p-4 ${className}`}>
           <h3 className="text-2xl lg:text-3xl font-bold mb-2 my-4">{title}</h3>
-          <p className="text-gray-500 mb-4 my-4">{`Par ${author} | ${date}`}</p>
+          <div className="flex flex-row items-center gap-2">
+            <Image
+              src={`/images/Avatar/${author}.png`}
+              alt={`Avatar de l'auteur ${author} pour l'article ${title}`}
+              width={50}
+              height={50}
+              style={{
+                width: "50px",
+                height: "50px",
+              }}
+              objectFit="cover"
+              className="rounded-full"
+            />
+            <p className="text-gray-500 mb-4 my-4 text-center">{`Par ${author} | ${date}`}</p>
+          </div>
           <div className="prose prose-lg my-4">{content}</div>
 
           {isExpanded && (
@@ -169,7 +183,21 @@ const BlogPost: React.FC<BlogPostProps> = ({
       {type === 2 && (
         <article className={`w-full lg:w-1/2 m-2 p-4 ${className}`}>
           <h3 className="text-2xl lg:text-3xl font-bold mb-2 my-4">{title}</h3>
-          <p className="text-gray-500 mb-4 my-4">{`Par ${author} | ${date}`}</p>
+          <div className="flex flex-row items-center gap-2">
+            <Image
+              src={`/images/Avatar/${author}.png`}
+              alt={`Avatar de l'auteur ${author} pour l'article ${title}`}
+              width={50}
+              height={50}
+              style={{
+                width: "50px",
+                height: "50px",
+              }}
+              objectFit="cover"
+              className="rounded-full"
+            />
+            <p className="text-gray-500 mb-4 my-4 text-center">{`Par ${author} | ${date}`}</p>
+          </div>
           <div className="prose prose-lg my-4">{content}</div>
 
           {isExpanded && (

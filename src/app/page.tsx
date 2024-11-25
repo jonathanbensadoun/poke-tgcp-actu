@@ -105,6 +105,23 @@ export default function Home() {
               ImgPartie3={["/images/Format/partie_3/NOEX.jpeg"]}
               ImgPartie4={["/images/Format/partie_4/NOEXfake.jpeg"]}
             />
+            <PokeballLeft />
+            <BlogPost
+              type={2}
+              className="bg-[#301D47] bg-opacity-70 rounded-lg m-2"
+              title="Un nouvel évènement a débarqué dans Pokémon TCG Pocket … et il ne fait pas l'unanimité "
+              content="Ce vendredi un nouvel évènement est arrivé dans Pokémon TCG Pocket avec comme thème le feu ardent d’Arcanin, nous aurons la possibilité pendant une semaine d’avoir des pioches miracles orientées vers la thématique des flammes avec notamment des pokémons de types et des cartes Auguste à récupérer communément, mais aussi et surtout nous verrons apparaître des pioches rares avec des Pokémons EX comme Arcanin à l’intérieur."
+              content1="Malheureusement ce n’est pas assez pour les joueurs qui s’étaient imaginés monts et merveilles grâce à des leaks sur reddit mal interprétées, des quantités de vidéos sur Youtube ont ainsi fusées, incitant les joueurs à garder leurs ressources aux vues de drops plus rare de cartes dans les boosters, ce qui était évidemment faux"
+              content2="La deuxième raison de cette déception tient dans les récompenses de l'événement en elles même, les pioches miracles n’étant tout d’abord pas la partie la plus excitante du jeu, les pioches bonus présentent un intérêt tout à fait relatifs pour les joueurs car les cartes restent très basiques, et les pioches rares s’accompagnent d’un prix de 3 Vitalités Miracles, nécessaire afin de tenter de récupérer le fameux Arcanin EX."
+              content3="Néanmoins l'événement offre quand même la chance de compléter un cartodex pas forcément évident à remplir en free to play avec des cartes très fortes dans la Pioche gratuite telles que feunard, Galopa ou même Auguste afin de créer un deck Aggro très efficace dans la méta actuelle, et même si la pioche rare coûte relativement chère, celà reste une opportunité supplémentaire de gagner une carte très intéressante et compétitive actuellement de par sa facilité de setup et sa puissance de frappe."
+              conclusion="Par contre ce que les joueurs attendant vraiment c’est un nouvel évènement solo similaire au combat Lokhlass qui a été vraiment populaire auprès de la communauté, mais n’ayez crainte c’est exactement ce que nous aurons le 28 Novembre avec de nouveaux challenges ainsi que de belles cartes promo à récupérer grâce à l'évènement Florizarre !"
+              author="Driinja"
+              date="22/11/2024"
+              ImgPartie1={["/images/News_event/partie_1/Introevent.jpg"]}
+              ImgPartie2={["/images/News_event/partie_2/Piochebonus.jpg"]}
+              ImgPartie3={["/images/News_event/partie_3/Piocherare.jpg"]}
+              ImgPartie4={["/images/News_event/partie_4/Deckarca.jpg"]}
+            />
           </div>
 
           <ScrollToTopButton />
