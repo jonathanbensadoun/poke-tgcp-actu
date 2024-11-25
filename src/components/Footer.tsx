@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         &copy; {new Date().getFullYear()} poke-tcgp-actu. All rights reserved.
       </p>
       <p>
-        <a href="mailto:bens.develop@gmail.com">Contact</a>
+        <a href="mailto:driinjagaming@gmail.com">Contact</a>
       </p>
     </div>
   );

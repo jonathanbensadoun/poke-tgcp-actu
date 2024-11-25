@@ -18,6 +18,9 @@ const Navbar: React.FC = () => {
           <h1 className="text-xl font-bold lg:text-2xl">Poké TCGP Actu</h1>
         </Link>
         <div className="hidden lg:flex lg:items-center lg:space-x-4 mx-auto lg:text-2xl">
+          <Link href="/" className="hover:text-violet-700">
+            Accueil
+          </Link>
           <Link href="/#actu" className="hover:text-violet-700">
             News
           </Link>
