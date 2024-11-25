@@ -23,7 +23,7 @@ export default function Home() {
   const summary = [
     "Feuille de Route des évènements de Décembre",
     "Utilisez cette ressource importante tant que vous le pouvez !",
-    "Un nouveau format arrive, mais ce sont les joueurs qui en sont à l’origine",
+    "Un nouveau format arrive, ce sont les joueurs qui en sont à l’origine",
     "L'évènement Apparition Massive de pokémon Feu ne fait pas l'unanimité",
     "Arbok Roucarnage, ou l’art de troll en beauté",
   ];
@@ -135,7 +135,7 @@ export default function Home() {
                   <PokeballRight />
                 </div>
                 <div
-                  id="Un nouveau format arrive, mais ce sont les joueurs qui en sont à l’origine"
+                  id="Un nouveau format arrive, ce sont les joueurs qui en sont à l’origine"
                   className="flex flex-col justify-center items-center"
                 >
                   <BlogPost
