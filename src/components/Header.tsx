@@ -13,7 +13,7 @@ const Header: React.FC = () => {
         objectFit="cover"
         priority
       />
-      <div className="absolute ml-14 lg:ml-0 lg:inset-y-1/4 z-0">
+      {/* <div className="absolute ml-14 lg:ml-0 lg:inset-y-1/4 z-0">
         <Image
           src="/6190b541579ccdce26c4957664000c88.gif"
           alt="Background"
@@ -22,24 +22,24 @@ const Header: React.FC = () => {
           // style={{ width: "auto", height: "auto" }}
           priority
         />
-      </div>
-      <div className="absolute lg:inset-y-1/4 right-0 z-0 hidden xl:block">
-        {/* <Image
+      </div> */}
+      {/* <div className="absolute lg:inset-y-1/4 right-0 z-0 hidden xl:block"> */}
+      {/* <Image
           src="/giphy_1.gif"
           alt="Background"
           layout="fill"
           objectFit="cover"
           priority
         /> */}
-        <Image
+      {/* <Image
           src="/6190b541579ccdce26c4957664000c88.gif"
           alt="Background"
           width={300}
           height={400}
           // style={{ width: "auto", height: "auto" }}
           priority
-        />
-      </div>
+        /> */}
+      {/* </div> */}
     </div>
   );
 };

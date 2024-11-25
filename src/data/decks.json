@@ -453,5 +453,36 @@
 
     "rank": "A",
     "description": "Qui aurait cru qu’une carte si facilement obtenable soit aussi puissante ? Ossatueur EX laisse parler votre chance, offrant un potentiel de 160 dégâts pour 2 énergies ! Le lancer de pièce décidera de la suite du combat car chaque lancer de pièce réussi s'accompagne de 80 de dégâts sur l’ennemi, retournant complètement des parties !! On le mettra en équipe avec Sablaireau, 70 de dégâts et 100HP, juste solide, ainsi que Kicklee qui pourra terminer des pokémons ennemis ayant pris refuge sur le banc adverse !"
+  },
+  {
+    "id": 16,
+    "name": "ArboCarnage",
+    "nameImg": "ArboCarnage",
+    "deck": [
+      "A1-164",
+      "A1-164",
+      "A1-165",
+      "A1-165",
+      "A1-186",
+      "A1-186",
+      "A1-187",
+      "A1-187",
+      "A1-188",
+      "A1-188",
+      "P-A-001",
+      "P-A-001",
+      "P-A-002",
+      "P-A-002",
+      "P-A-005",
+      "P-A-005",
+      "P-A-007",
+      "P-A-007",
+      "A1-223",
+      "A1-223"
+    ],
+    "alternat": ["A1-210", "A1-203"],
+    "rank": "B",
+    "description": "Voici une combinaison comme on a pas l’habitude de voir mais si votre objectif du jour est de faire abandonner le joueur adverse, ce deck est exactement fait pour vous ! Les deux Pokémons phares du deck sont des cauchemars sur pattes, Arbok possède la capacité de totalement bloquer le Pokémon adverse, le rendant incabable de se replier sur son banc. Couplé avec le talent de Roucarnage à remplacer le pokémon au front par un du banc, et vous aurez un combo insupportable à infliger à vos adversaires ! Bien que ça ne soit pas un deck top tier, c’est vraiment une pépite si votre objectif est de troll efficacement.",
+    "description_alternate": "Afin d’infliger encore plus de frustration à vos ennemis, on peut faire remplacer Arbok par Ptera. Ce Pokémon possède la capacité de renvoyer le Pokémon adverse dans la pioche sur un lancer de dés. Frustrant et énervant à souhait, vous pourrez admirer votre adversaire abandonner après avoir renvoyé son Pokémon durement set up, tout droit dans son paquet de cartes"
   }
 ]

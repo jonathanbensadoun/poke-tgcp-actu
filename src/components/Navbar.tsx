@@ -12,13 +12,13 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="lg:flex lg:justify-center lg:items-center fixed top-0  right-0 left-0 z-50">
+    <nav className="lg:flex lg:justify-center lg:items-center fixed top-0  right-0 left-0 z-50 ">
       <div className="flex flex-row lg:flex-row items-center justify-between p-4 bg-[#301D47] text-[#FFCB05] bg-opacity-50 backdrop-blur-lg lg:rounded-b-lg lg:w-4/5 shadow">
         <Link href="/" className="hover:text-violet-700">
           <h1 className="text-xl font-bold lg:text-2xl">Poké TCGP Actu</h1>
         </Link>
         <div className="hidden lg:flex lg:items-center lg:space-x-4 mx-auto lg:text-2xl">
-          <Link href="/" className="hover:text-violet-700">
+          <Link href="/#actu" className="hover:text-violet-700">
             News
           </Link>
           <Link href="/decks" className="hover:text-violet-700">
@@ -62,11 +62,8 @@ const Navbar: React.FC = () => {
             <FaXTwitter />
           </Link>
         </div>
-        <div className="flex flex-col justify-center items-end lg:hidden   text-white p-4 ">
-          <button
-            onClick={toggleMenu}
-            className="text-white focus:outline-none"
-          >
+        <div className="flex flex-col justify-center items-end lg:hidden   p-4 text-[#FFCB05]">
+          <button onClick={toggleMenu} className="focus:outline-none">
             {isOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
@@ -75,7 +72,7 @@ const Navbar: React.FC = () => {
         {isOpen && (
           <div className="bg-[#301D47] bg-opacity-70 backdrop-blur-lg text-white w-1/3 flex p-4 rounded-bl-lg flex-col justify-center items-center absolute">
             <div className="block lg:hidden ">
-              <div className="flex flex-col  space-y-4 ">
+              <div className="flex flex-col  space-y-4 text-[#FFCB05]">
                 <Link
                   href="/"
                   className="hover:text-violet-700"
