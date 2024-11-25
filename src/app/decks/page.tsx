@@ -28,7 +28,9 @@ export default function DecksPage() {
 
   const renderDecksByRank = (rank: Rank) => (
     <div className="flex flex-col justify-center items-center ">
-      <h3 className="text-2xl font-bold mb-4 text-center">Rank: {rank}</h3>
+      <h3 className="text-2xl lg:text-3xl font-bold mb-4 text-center">
+        Rank: {rank}
+      </h3>
       <div className="flex flex-row gap-4 flex-wrap justify-center items-center  ">
         {sortedDecks
           .filter((deck) => deck.rank === rank)
