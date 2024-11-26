@@ -21,6 +21,7 @@ export default function Home() {
     }
   };
   const summary = [
+    "Ectoplasma Hypnomade, le contrôle Psy !",
     "Feuille de Route des évènements de Décembre",
     "Utilisez cette ressource importante tant que vous le pouvez !",
     "Un nouveau format arrive, ce sont les joueurs qui en sont à l’origine",
@@ -75,8 +76,43 @@ export default function Home() {
                 </div>
               ))}
             </div>
-            <PokeballRight />
+            <PokeballLeft />
             <div className="flex flex-col justify-center items-center lg:w-screen ">
+              <div
+                id="Ectoplasma Hypnomade, le contrôle Psy !"
+                className="flex flex-col justify-center items-center"
+              >
+                <BlogPost
+                  className="bg-[#301D47] bg-opacity-70 rounded-lg m-2"
+                  title=" Deck du jour : Ectoplasma Hypnomade, le contrôle Psy !"
+                  content="Ectoplasma a toujours été un de mes Pokémon préférés, l’utiliser comme carte phare dans un deck était donc une obligation ! Ectoplasma possède le talent unique de bloquer les dresseurs, limitant grandement les tactiques de votre adversaire. Ses sous évolutions, Fantominus et Spectrum sont elles aussi assez intéressantes pour leur attaque à 1 d’énergie et un coût de retrait faible. Hypnomade de son retrait pourra soit servir de tank afin de préserver votre Ectoplasma, ou alors utiliser son talent afin de temporiser pendant que votre autre Pokémon fait le travail ! Hypnomade possède le talent d’endormir le Pokémon adverse sur un lancer de dés, l’empêchant de faire quoi que ce soit pendant son tour. Il devra ensuite lui-même effectuer un lancer de dés afin de sortir de cet état. L’incapacité à utiliser des dresseurs couplée avec l’endormissement font alors de ce deck un très bon archétype pour déstabiliser un adversaire trop confiant "
+                  author="Driinja"
+                  date="26/11/2024"
+                  ImgPartie1={[
+                    "/images/cards/A1-120.jpg",
+                    "/images/cards/A1-120.jpg",
+                    "/images/cards/A1-121.jpg",
+                    "/images/cards/A1-121.jpg",
+                    "/images/cards/A1-123.jpg",
+                    "/images/cards/A1-123.jpg",
+                    "/images/cards/A1-124.jpg",
+                    "/images/cards/A1-124.jpg",
+                    "/images/cards/A1-125.jpg",
+                    "/images/cards/A1-125.jpg",
+                    "/images/cards/P-A-001.jpg",
+                    "/images/cards/P-A-002.jpg",
+                    "/images/cards/P-A-002.jpg",
+                    "/images/cards/P-A-005.jpg",
+                    "/images/cards/P-A-005.jpg",
+                    "/images/cards/P-A-007.jpg",
+                    "/images/cards/P-A-007.jpg",
+                    "/images/cards/A1-223.jpg",
+                    "/images/cards/A1-223.jpg",
+                    "/images/cards/A1-225.jpg",
+                  ]}
+                />
+              </div>
+              <PokeballRight />
               <div
                 id="Feuille de Route des évènements de Décembre"
                 className="flex flex-col justify-center items-center"
