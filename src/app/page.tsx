@@ -59,20 +59,20 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center">
           <div className="w-full rounded-t-xl flex flex-col justify-center items-center bg-[#301D47] bg-opacity-70 backdrop-blur-lg ">
             <PokeballFront />
-            <div className="flex flex-col justify-center items-center gap-4 m-1 ">
+            <div className="flex flex-col justify-center items-center gap-4 ">
               <h2 className="text-3xl font-bold text-[#FFCB05] p-4">
                 Liste des articles
               </h2>
               {summary.map((title, index) => (
-                <Button
-                  className="rounded-full  bg-[#382155] hover:bg-[#301D47]  hover:text-[#FFCB05] h-16 text-lg shadow-md lg:w-full border-[1px]  border-[#FFCB05]"
+                <div
+                  className="rounded-full flex justify-center items-center  bg-[#382155] hover:bg-[#301D47] p-1 w-full hover:text-[#FFCB05] min-h-24 text-lg shadow-md lg:w-full border-[1px]  border-[#FFCB05]"
                   key={index}
                   onClick={() => scrollToId(title)}
                 >
-                  <h2 className="text-md lg:text-3xl font-bold text-white p-4 text-center text-wrap">
+                  <h2 className="text-md lg:text-xl font-bold text-white  text-center text-wrap">
                     {title}
                   </h2>
-                </Button>
+                </div>
               ))}
             </div>
             <PokeballRight />
@@ -84,28 +84,28 @@ export default function Home() {
                 <BlogPost
                   className="bg-[#301D47] bg-opacity-70 rounded-lg m-2"
                   title="Feuille de Route des évènements de Décembre - Pokémon TCG Pocket"
-                  content="Le mois de Novembre aura été chargé pour les fans de Pokémon TCG Pocket entre l'événement Locklass, le JcJ Insignes, le Mass Outbreak et un ultime événement Magicarpe Leviatior qui devrait pointer le bout de son nez ! Mais que nous réserve Gamefreak pour ce mois de décembre ? Les leaks ont parlés, voici la liste provisoire des événements pour cette fin d'année ! "
+                  content="Le mois de Novembre aura été chargé pour les fans de Pokémon TCG Pocket entre l'événement Locklass, le JcJ Insignes, le Mass Outbreak et un ultime événement Magicarpe Leviatior qui devrait pointer le bout de son nez ! Que nous réserve Gamefreak pour ce mois de décembre ? Les leaks ont parlé, voici la liste provisoire des événements pour cette fin d'année ! "
                   subtitle1="Le Drop Florizarre"
-                  content1="Tout d'abord un second événement similaire au Locklass devrait apparaître le 28 novembre et se poursuivre jusqu'au 12 décembre ! Durant différents niveaux de challenges nous aurons l'opportunité de gagner de nouvelles cartes, la plupart sont seulement des arts alternatifs de cartes que nous connaissons déjà. Seule grosse différence avec Spectrum qui se voit attribuer une nouvelle attaque infligeant 0 ou 50 de dégâts sur un lancer de pièce."
+                  content1="Un deuxième évènement similaire au très populaire Drop Locklass va avoir lieu du 28 Novembre au 12 décembre. Durant celui ci nous pourrons récupérer jusqu'à 6 cartes promo, la plupart d'entre elles étant des arts alternatifs de cartes existantes ! Deux cartes sortent du lot, Rondoudou qui gagne la capacité d'endormir sur son attaque et Spectrum qui pourra faire 50 dégâts sur un lancer de pièces ! Rendant chacune d'entre elles bien plus intéressantes."
                   subtitle2="La Pioche Miracle Bulbizarre Magneti "
                   content2="Un des membres des starters originel va avoir droit à son propre événement, c'est Bulbizarre qui sera au centre de celui-ci aux côtés de Magneti dans la Pioche Miracle un peu comme l'événement Miaouss / Leveinard que nous avons eu précédemment ! Comme la dernière fois, nous aurons un événement en deux temps, une première partie qui aura lieu du 5 au 12 décembre, et une deuxième du 12 au 19, avec évidemment sa boutique contenant des backgrounds, pièces et autres items exclusifs et relatifs à ces deux pokémons."
                   subtitle3="De nouvelles cartes en approche "
-                  content3="Mais ce que les joueurs attendent le plus, c'est évidemment de nouvelles cartes ! Bien qu'un nouveau set complet de plus de 260 cartes arrive fin janvier, le 16 décembre arrivera avec un mini set de nouvelles cartes, un ou deux boosters de pokémons ne faisant pas partie du premier set de TCG Pocket ! Cela devrait s'accompagner en théorie de nouvelles mécaniques et d'équilibrages visant à changer la méta actuelle, dominée à l'extrême par un certain Pikachu ! "
-                  conclusion="Le besoin de nouveautés se fait clairement ressentir au sein de la communauté qui attend de pied ferme le set A2 sortant fin janvier, en espérant que ces événements de décembre sauront étancher notre soif de cartes … pour le moment ! "
+                  content3="La communauté est unanime, ce que les joueurs attendent le plus c'est évidemment de nouvelles cartes ! Bien qu'un nouveau set complet de plus de 260 cartes arrive fin janvier, le 16 décembre arrivera avec un mini set de nouvelles cartes, un ou deux boosters de pokémon ne faisant pas partie du premier set de TCG Pocket ! Cela devrait s'accompagner en théorie de nouvelles mécaniques et d'équilibrages visant à changer la méta actuelle, dominée à l'extrême par un certain Pikachu ! "
+                  conclusion="Le besoin de nouveautés se fait clairement ressentir au sein de la communauté qui attend de pied ferme le set A2 sortant fin janvier, les évènements de décembre pourront ils étancher notre soif de cartes ? On fera le bilan en fin d'année ! "
                   author="Driinja"
                   date="25/11/2024"
                   ImgPartie1={[
-                    "/images/Event_Decembre/partie_1/AmphiAlt.jpg",
                     "/images/Event_Decembre/partie_1/BulbAlt.jpg",
+                    "/images/Event_Decembre/partie_1/AmphiAlt.jpg",
                     "/images/Event_Decembre/partie_1/OnAlt.jpg",
                     "/images/Event_Decembre/partie_1/RondAlt.jpg",
                     "/images/Event_Decembre/partie_1/SpectAlt.jpg",
                   ]}
                   ImgPartie2={[
+                    "/images/Event_Decembre/partie_2/FlorAllt.jpg",
                     "/images/Event_Decembre/partie_2/BulbEvent1.jpg",
                     "/images/Event_Decembre/partie_2/BulbEvent2.jpg",
                     "/images/Event_Decembre/partie_2/BulbEvent3.jpg",
-                    "/images/Event_Decembre/partie_2/FlorAllt.jpg",
                   ]}
                   ImgPartie3={["/images/Event_Decembre/partie_3/Miniset.jpg"]}
                 />
@@ -120,11 +120,10 @@ export default function Home() {
                 <BlogPost
                   className="bg-[#301D47] bg-opacity-70 rounded-lg m-2"
                   title="Pokémon TCG Pocket : Utilisez cette ressource importante tant que vous le pouvez !"
-                  content="La hype du nouveau venu de la licence Pokémon est inarrêtable, Pokemon TCGP est sorti il y a à peine 3 semaines et a déjà généré plus de 120 millions de revenus et vous pouvez imaginer la quantité de boosters qui ont étés ouverts pendant cette période ! "
-                  content1="Comme vous le savez peut être chaque booster que vous ouvrez s’accompagne de points boosters, ressource qui fait office de “Pity system” ! Vous pouvez ensuite utiliser ces points afin d’acheter les cartes dont vous aurez besoin pour un montant relativement exorbitant, ce système de points, se cumulant grâce à l’ouverture de boosters et non pas avec les doublons de cartes (comme on peut le retrouver sur Hearthstone avec le désenchantement par exemple) permet néanmoins de cibler des cartes nécessaires et récalcitrantes à tomber, ou de parfaire sa collection."
+                  content="Comme vous le savez peut être chaque booster que vous ouvrez s’accompagne de points boosters, ressource qui fait office de “Pity system” !On peut définir ce terme technique comme une manière de lutter contre l'aléatoire du jeu, imaginez que vous ouvrez de plus en plus de boosters car vous souhaitez absolument avoir une carte précise mais la chance n'est pas avec vous. Chaque boosters s'accompagnant de points, vous pouvez directement acheter la carte que vous souhaitez grâce à cette ressource. Littéralement, le système a pitié de vous et vous échange votre carte contre vos points accumulés !"
                   content2="Ces points sont néanmoins liés à l’extension des boosters ouverts, autrement dit, nous sommes actuellement dans le premier set de Pokémon TCG Pocket, ces points boosters ne pourront pas être utilisés avec le deuxième set qui sortira fin janvier afin de récolter au plus vite les cartes les plus prisées de la première extension du TCG mobile."
-                  content3="Pire, ces points points étant liés au set, ils seront voués à disparaître lorsque le set s’en ira de la boutique ! Mais pas d’inquiétude car en théorie, même si la première extension devrait arriver le 30 janvier avec un lot de plus de 220 cartes, cela ne signifie pas forcément que le set “Puissance Génétique” disparaîtra pour autant, donc pas d’inquiétude à avoir … pour l’instant."
-                  conclusion="Mais une question se pose, comment récupérer les cartes qui nous manqueront lorsque le set “Puissance Génétique” prendra fin ? La réponse se trouve très certainement dans le très demandé système d'échange que la communauté réclame ardemment depuis le lancement du jeu. Une date de sortie partielle pour cette option a été révélée officiellement, certaines cartes (sûrement celles du premier set) devraient être échangeables courant janvier. "
+                  content3="Pire, ces points points étant liés au set, ils seront voués à disparaître lorsque le set s’en ira de la boutique ! Pas d’inquiétude car en théorie, même si la première extension devrait arriver le 30 janvier avec un lot de plus de 220 cartes, cela ne signifie pas forcément que le set “Puissance Génétique” disparaîtra pour autant, donc pas d’inquiétude à avoir … pour l’instant."
+                  conclusion="Une question se pose, comment récupérer les cartes qui nous manqueront lorsque le set “Puissance Génétique” prendra fin ? La réponse se trouve très certainement dans le très demandé système d'échange que la communauté réclame ardemment depuis le lancement du jeu. Une date de sortie partielle pour cette option a été révélée officiellement, certaines cartes (sûrement celles du premier set) devraient être échangeables courant janvier. "
                   author="Driinja"
                   date="25/11/2024"
                   ImgPartie1={["/images/Ressource/partie_1/Pointsbooster.gif"]}
@@ -142,12 +141,12 @@ export default function Home() {
                     type={2}
                     className="bg-[#301D47] bg-opacity-70 rounded-lg m-2"
                     title="Un nouveau format arrive dans Pokémon TCG Pocket, mais ce sont les joueurs qui en sont à l’origine"
-                    content="Si vous vous êtes aventurés dans le mode joueur contre joueur de Pokémon TCG Pocket, vous avez peut être remarqués que La méta actuelle est ultra dominée par les Pokémons EX, les données résumant les rencontre dès 68 derniers tournois comprenant quasiment 35 000 matchs nous donne l’information que dans le top 50 des Decks ayant le plus haut taux de victoire, seulement 8 decks ne comprennent aucune carte EX. En prime, seulement 2 decks regroupent plus de 50% des joueurs, et vous l’aurez deviné ce sont nos amis Mewtwo et Pikachu EX qui comptabilisent respectivement 25% et 26.5% des joueurs."
+                    content="Si vous vous êtes aventurés dans le mode joueur contre joueur de Pokémon TCG Pocket, vous avez peut être remarqués que La Méta actuelle est ultra dominée par les Pokémons EX, les données résumant les rencontres des 68 derniers tournois comprenant quasiment 35 000 matchs nous donnent l’information que dans le top 50 des Decks ayant le plus haut taux de victoire, seulement 8 decks ne comprennent aucune carte EX. En prime, seulement 2 decks regroupent plus de 50% des joueurs, et vous l’aurez deviné ce sont nos amis Mewtwo et Pikachu EX qui comptabilisent respectivement 25% et 26.5% des joueurs."
                     content1="Face à cette oppression de la méta, les joueurs ont trouvé un moyen de jouer dans leur propre format avant même que Game Freak ait besoin de mettre quoi que ce soit en place. Tout d’abord il faut savoir que comme mentionné précédemment, les tournois sont abondants sur Pokémon TCG Pocket et chacun y va de sa propre règle dont celle de ne pas utiliser de Pokémon EX lors de ces rencontres compétitives, créant ainsi un nouveau format pour les joueurs souhaitant s’engager dans ces tournois. "
-                    content2="Une deuxième manière, cette fois pour un côté plus d'entente est aussi possible et ce grâce à l’outil de match privé ! Un mot de passe est nécessaire afin de participer à ces matchs privés, et un consensus est arrivé avec le code NOEX, les deux joueurs se doivent juste de respecter la règle tacite : Ne pas utiliser de Pokémon EX lors de ce genre de rencontres."
-                    content3="L’objectif de ce format est d’ouvrir le jeu à des decks qui ne pourraient pas avoir vraiment la chance de tenir face à la puissance accablante des decks métas, et ainsi expérimenter avec des playstyles et des combinaisons variées de cartes qu’on a peu l’occasion de voir. Les retours des joueurs sont d’ailleurs assez positifs et enthousiastes concernant ce mode de jeu que beaucoup espèrent voir arriver officiellement dans le jeu au cours des prochaines mises à jour."
-                    content4="Néanmoins le modèle n’est pas parfait, car en créant ce nouveau format afin d’échapper à la méta, ne fait qu’en créer une nouvelle, et les decks NOEX qui brillent dans le format classique (on peut citer, le Deck Auguste Feunard, Koga Smogogo, Alakazam, Dracolosse etc …) le sont encore plus lorsqu’ils ne font pas face à la pression de Pokémon EX du côté opposé. De plus, c'est un modèle qui repose seulement sur le bon vouloir des joueurs, celà n’empêche pas des joueurs avec des mauvaises intentions de venir utiliser des decks avec EX dans ce format tels les petits trolls qu’ils sont."
-                    conclusion="Mais même si il est loin d’être parfait, c’est une expérience que je vous recommande de par la variété des decks proposés et le manque d’options de la part de Pokémon TCG Pocket afin d’offrir des modes de jeux alternatifs et accessibles aux joueurs n’ayant pas la chance de tirer des cartes EX. "
+                    content2="Notez que vous n'êtes pas obligés d'être un compétiteur afin de profiter du format NOEX, pour celà il faudra vous tourner vers l'outil de match privé ! Un mot de passe est nécessaire afin de participer à ces matchs privés, et un consensus est arrivé avec le code NOEX, les deux joueurs se doivent juste de respecter la règle tacite : ne pas utiliser de Pokémon EX lors de ce genre de rencontres."
+                    content3="L’objectif de ce format est d’ouvrir le jeu à des decks qui ne pourraient pas avoir vraiment la chance de tenir face à la puissance accablante des decks métas, et ainsi expérimenter des manières de jouer et des combinaisons variées de cartes qu’on a peu l’occasion de voir. Les retours des joueurs sont d’ailleurs assez positifs et enthousiastes concernant ce mode de jeu que beaucoup espèrent voir arriver officiellement dans le jeu au cours des prochaines mises à jour."
+                    content4="Néanmoins, ce système possède ses propres défauts. Echapper à une Méta ne fait qu'en créer une nouvelle où les meilleurs decks NOEX se partagent la part du lion. De plus, rien n'empêche des joueurs mal intentionnés d'intégrer le format avec des decks qui ne respectent pas les règles, dans le but d'obtenir des victoires plus facile ou juste s'amuser."
+                    conclusion="Même s'il est loin d'être parfait, le format NOEX offre un mode de jeu alternatif intéressant que ce soit pour les joueurs ayant fait le tour de la méta actuelle, ou ceux qui n'ont pas encore les cartes pour être compétitif dans le format classique ! Dans tous tes cas cette initiative de la part des joueurs prouve deux choses, un la débrouillardise des joueurs. Et deux, le manque cruel de formats sur Pokémon TGCP. "
                     author="Driinja"
                     date="25/11/2024"
                     ImgPartie1={["/images/Format/partie_1/Ranking_compet.png"]}
