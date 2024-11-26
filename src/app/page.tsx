@@ -95,14 +95,14 @@ export default function Home() {
                   author="Driinja"
                   date="25/11/2024"
                   ImgPartie1={[
-                    "/images/Event_Decembre/partie_1/BulbAlt.jpg",
+                    "/images/Event_Decembre/partie_2/FlorAllt.jpg",
                     "/images/Event_Decembre/partie_1/AmphiAlt.jpg",
                     "/images/Event_Decembre/partie_1/OnAlt.jpg",
                     "/images/Event_Decembre/partie_1/RondAlt.jpg",
                     "/images/Event_Decembre/partie_1/SpectAlt.jpg",
                   ]}
                   ImgPartie2={[
-                    "/images/Event_Decembre/partie_2/FlorAllt.jpg",
+                    "/images/Event_Decembre/partie_1/BulbAlt.jpg",
                     "/images/Event_Decembre/partie_2/BulbEvent1.jpg",
                     "/images/Event_Decembre/partie_2/BulbEvent2.jpg",
                     "/images/Event_Decembre/partie_2/BulbEvent3.jpg",
