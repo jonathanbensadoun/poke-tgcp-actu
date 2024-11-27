@@ -68,7 +68,14 @@ const BlogPost: React.FC<BlogPostProps> = ({
               objectFit="cover"
               className="rounded-full"
             />
-            <p className="text-gray-500 mb-4 my-4 text-center">{`Par ${author} | ${date}`}</p>
+            <div className="text-gray-500 mb-4 my-4 text-center">
+              {`Par ${author} | ${new Date(date).toLocaleDateString("fr-FR", {
+                weekday: "long",
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}`}
+            </div>
           </div>
           <div className="prose prose-lg my-4">{content}</div>
 
@@ -202,7 +209,15 @@ const BlogPost: React.FC<BlogPostProps> = ({
               objectFit="cover"
               className="rounded-full"
             />
-            <p className="text-gray-500 mb-4 my-4 text-center">{`Par ${author} | ${date}`}</p>
+            <div className="text-gray-500 mb-4 my-4 text-center">
+              {" "}
+              {`Par ${author} | ${new Date(date).toLocaleDateString("fr-FR", {
+                weekday: "long",
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}`}
+            </div>
           </div>
           <div className="prose prose-lg my-4">{content}</div>
 
