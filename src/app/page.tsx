@@ -9,6 +9,7 @@ import {
 import { Button } from "@/components/ui/button";
 import ScrollToTopButton from "@/components/SrollToTop";
 import Link from "next/link";
+import articles from "@/data/articles.json";
 
 export default function Home() {
   const scrollToId = (id: string) => {
@@ -78,7 +79,25 @@ export default function Home() {
             </div>
             <PokeballLeft />
             <div className="flex flex-col justify-center items-center lg:w-screen ">
-              <div
+              {articles
+                .sort(
+                  (a, b) =>
+                    new Date(b.date).getTime() - new Date(a.date).getTime()
+                )
+                .map((post, index) => (
+                  <div
+                    key={post.id}
+                    id={post.id}
+                    className="flex flex-col justify-center items-center"
+                  >
+                    <BlogPost
+                      {...post}
+                      className="bg-[#301D47] bg-opacity-70 rounded-lg m-2"
+                    />
+                    {index % 2 === 0 ? <PokeballRight /> : <PokeballLeft />}
+                  </div>
+                ))}
+              {/* <div
                 id="Ectoplasma Hypnomade, le contrôle Psy !"
                 className="flex flex-col justify-center items-center"
               >
@@ -223,8 +242,8 @@ export default function Home() {
                   className="bg-[#301D47] bg-opacity-70 rounded-lg m-2"
                   title=" Deck du jour : Arbok Roucarnage, ou l’art de troll en beauté"
                   content="Voici une combinaison comme on a pas l’habitude de voir mais si votre objectif du jour est de faire abandonner le joueur adverse, ce deck est exactement fait pour vous ! Les deux Pokémons phares du deck sont des cauchemars sur pattes, Arbok possède la capacité de totalement bloquer le Pokémon adverse, le rendant incabable de se replier sur son banc. Couplé avec le talent de Roucarnage à remplacer le pokémon au front par un du banc, et vous aurez un combo insupportable à infliger à vos adversaires ! Bien que ça ne soit pas un deck top tier, c’est vraiment une pépite si votre objectif est de troll efficacement. "
-                  subtitle1="Version Ptera"
-                  content1="Afin d’infliger encore plus de frustration à vos ennemis, on peut faire remplacer Arbok par Ptera. Ce Pokémon possède la capacité de renvoyer le Pokémon adverse dans la pioche sur un lancer de dés. Frustrant et énervant à souhait, vous pourrez admirer votre adversaire abandonner après avoir renvoyé son Pokémon durement set up, tout droit dans son paquet de cartes"
+                  subtitle2="Version Ptera"
+                  content2="Afin d’infliger encore plus de frustration à vos ennemis, on peut faire remplacer Arbok par Ptera. Ce Pokémon possède la capacité de renvoyer le Pokémon adverse dans la pioche sur un lancer de dés. Frustrant et énervant à souhait, vous pourrez admirer votre adversaire abandonner après avoir renvoyé son Pokémon durement set up, tout droit dans son paquet de cartes"
                   author="Driinja"
                   date="25/11/2024"
                   ImgPartie1={[
@@ -254,7 +273,7 @@ export default function Home() {
                     "/images/cards/A1-225.jpg",
                   ]}
                 />
-              </div>
+              </div> */}
             </div>
           </div>
 
