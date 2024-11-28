@@ -48,12 +48,14 @@ const BlogPost: React.FC<BlogPostProps> = ({
   type = 1,
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
-
+  const isGif = (src: string) => src.endsWith(".gif");
   return (
     <>
       {type === 1 && (
         <article className={`w-full lg:w-1/2 m-2 p-4 ${className}`}>
-          <h3 className="text-2xl lg:text-3xl font-bold mb-2 my-4">{title}</h3>
+          <h3 className="text-2xl lg:text-3xl font-bold </article>mb-2 my-4">
+            {title}
+          </h3>
           <div className="flex flex-row items-center gap-2">
             <Image
               quality={50}
@@ -64,8 +66,8 @@ const BlogPost: React.FC<BlogPostProps> = ({
               style={{
                 width: "50px",
                 height: "50px",
+                objectFit: "cover",
               }}
-              objectFit="cover"
               className="rounded-full"
             />
             <div className="text-gray-500 mb-4 my-4 text-center">
@@ -96,12 +98,15 @@ const BlogPost: React.FC<BlogPostProps> = ({
                       src={img}
                       alt={`image illustrant la partie 1 de l'article `}
                       width={100}
-                      height={400}
-                      style={{
-                        width: ImgPartie1.length > 1 ? "auto" : "250px",
-                        height: "auto",
-                      }}
-                      className="rounded-lg "
+                      height={300}
+                      // style={{
+                      //   width: ImgPartie1.length > 1 ? "auto" : "250px",
+                      //   height: "auto",
+                      // }}
+                      className={`rounded-lg ${
+                        ImgPartie1.length > 1 ? "w-auto" : "w-[250px]"
+                      } h-auto `}
+                      unoptimized={isGif(img)}
                     />
                   ))}
               </div>
@@ -122,9 +127,10 @@ const BlogPost: React.FC<BlogPostProps> = ({
                       key={index}
                       src={img}
                       alt={`image illustrant la partie 2 de l'article `}
-                      width={ImgPartie2.length > 1 ? 150 : 300}
+                      width={ImgPartie2.length > 1 ? 100 : 300}
                       height={400}
-                      className="rounded-lg"
+                      className="rounded-lg w-auto h-auto"
+                      unoptimized={isGif(img)}
                     />
                   ))}
               </div>
@@ -148,7 +154,8 @@ const BlogPost: React.FC<BlogPostProps> = ({
                       alt={`image illustrant la partie 3 de l'article `}
                       width={500}
                       height={400}
-                      className="rounded-lg"
+                      className="rounded-lg w-auto h-auto"
+                      unoptimized={isGif(img)}
                     />
                   ))}
               </div>
@@ -171,7 +178,8 @@ const BlogPost: React.FC<BlogPostProps> = ({
                       alt={`image illustrant la partie 4 de l'article `}
                       width={500}
                       height={400}
-                      className="rounded-lg"
+                      className="rounded-lg w-auto h-auto"
+                      unoptimized={isGif(img)}
                     />
                   ))}
               </div>
@@ -205,8 +213,8 @@ const BlogPost: React.FC<BlogPostProps> = ({
               style={{
                 width: "50px",
                 height: "50px",
+                objectFit: "cover",
               }}
-              objectFit="cover"
               className="rounded-full"
             />
             <div className="text-gray-500 mb-4 my-4 text-center">
@@ -236,14 +244,11 @@ const BlogPost: React.FC<BlogPostProps> = ({
                       quality={50}
                       key={index}
                       src={img}
-                      alt={`image illustrant la partie 1 de l'article `}
+                      alt={`image illustrant la partie 1 de l'article`}
                       width={800}
                       height={300}
-                      style={{
-                        width: "auto",
-                        height: "auto",
-                      }}
-                      className="rounded-lg "
+                      className="rounded-lg w-auto h-auto"
+                      unoptimized={isGif(img)}
                     />
                   ))}
               </div>
@@ -266,7 +271,8 @@ const BlogPost: React.FC<BlogPostProps> = ({
                       alt={`image illustrant la partie 2 de l'article `}
                       width={600}
                       height={400}
-                      className="rounded-lg"
+                      className="rounded-lg w-auto h-auto"
+                      unoptimized={isGif(img)}
                     />
                   ))}
               </div>
@@ -290,7 +296,8 @@ const BlogPost: React.FC<BlogPostProps> = ({
                       alt={`image illustrant la partie 3 de l'article `}
                       width={300}
                       height={400}
-                      className="rounded-lg"
+                      className="rounded-lg w-auto h-auto"
+                      unoptimized={isGif(img)}
                     />
                   ))}
               </div>
@@ -313,7 +320,8 @@ const BlogPost: React.FC<BlogPostProps> = ({
                       alt={`image illustrant la partie 4 de l'article `}
                       width={300}
                       height={400}
-                      className="rounded-lg"
+                      className="rounded-lg w-auto h-auto"
+                      unoptimized={isGif(img)}
                     />
                   ))}
               </div>

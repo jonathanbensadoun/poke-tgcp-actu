@@ -4,6 +4,7 @@ import Link from "next/link";
 import deckData from "@/data/decks.json";
 import Image from "next/image";
 import ScrollToTopButton from "@/components/SrollToTop";
+import { MdNewReleases } from "react-icons/md";
 
 // Définir le type des données des decks
 type Rank = "S" | "A" | "B" | "Mention Honorable"; // Ajout de "Mention Honorable"
@@ -12,6 +13,7 @@ type Deck = {
   name: string;
   rank: Rank;
   nameImg: string;
+  new: boolean;
 };
 
 export default function DecksPage() {
@@ -40,6 +42,14 @@ export default function DecksPage() {
               className="border rounded-lg shadow-lg flex flex-col items-center mb-4 bg-[#301D47] bg-opacity-70 backdrop-blur-lg "
             >
               <Link href={`/decks/${deck.nameImg}`}>
+                {deck.new && (
+                  <div className="absolute m-4 bg-white bg-opacity-70 rounded-full w-8 h-8 lg:w-20 lg:h-20">
+                    <MdNewReleases className="w-8 h-8 lg:w-20  lg:h-20 text-blue-600 text-shadow-lg" />
+                    <p className="text-blue-500 text-sm lg:text-lg font-bold">
+                      Nouveau
+                    </p>
+                  </div>
+                )}
                 <Image
                   quality={50}
                   src={`/images/decks/${deck.nameImg}.png`}

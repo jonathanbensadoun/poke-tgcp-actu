@@ -22,6 +22,7 @@ export default function Home() {
     }
   };
   const summary = [
+    "Triopikeur Kabutops, un deck tanky hors méta !",
     "Ectoplasma Hypnomade, le contrôle Psy !",
     "Feuille de Route des évènements de Décembre",
     "Utilisez cette ressource importante tant que vous le pouvez !",

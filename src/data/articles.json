@@ -133,5 +133,37 @@
       "/images/cards/A1-223.jpg"
     ],
     "ImgPartie2": ["/images/cards/A1-210.jpg", "/images/cards/A1-225.jpg"]
+  },
+  {
+    "id": "Triopikeur Kabutops, un deck tanky hors méta !",
+    "title": "Deck du jour : Triopikeur Kabutops, un deck tanky hors méta !",
+    "content": "Premier deck proposé par vos soins, je remercie Horreo, un membre actif de la communauté pour sa version du deck ! Le concept est simple, on joue Triopikeur et Kabutops, deux Pokémon avec des attaques à 1 d’énergie, donc très rapide à mettre en place, mais chacun avec des capacités de survie assez élevées ! L’attaque de Triopikeur vient avec un lancé de dés lui donnant la chance de ne subir aucun dégâts au tour suivant. Il pourra tanker tout le début de partie jusqu’à ce que vous mettiez en place Kabutops, qui lui aussi est très résistant grâce à sa capacité de se soigner du montant des dégâts qu'il inflige. Sa capacité à survivre couplé à son type combat en font un très bon counter du deck Pikachu EX, mais il manque un peu d'agressivité contre d’autres decks plus orientés “contrôle”.",
+    "subtitle1": "D’autres versions",
+    "content1": "Vous pourrez remplacer Kabutops par d’autres Pokémon afin d’obtenir une version plus agressive de celui-ci ! Ossatueur EX est un bon exemple car il s’obtient très facilement et peut faire jusqu’à 160 dégâts pour seulement deux points d’énergie. Évidemment cette version avec le côté complètement aléatoire de la carte ! Ou alors on peut imaginer un Mackogneur EX, une carte EX avec une des meilleures caractéristiques cumulées du jeu afin d'ajouter du “punch” à votre deck.",
+    "author": "Driinja",
+    "date": "2024-11-27",
+    "ImgPartie1": [
+      "/images/cards/A1-139.jpg",
+      "/images/cards/A1-139.jpg",
+      "/images/cards/A1-140.jpg",
+      "/images/cards/A1-140.jpg",
+      "/images/cards/A1-217.jpg",
+      "/images/cards/A1-217.jpg",
+      "/images/cards/A1-158.jpg",
+      "/images/cards/A1-158.jpg",
+      "/images/cards/A1-159.jpg",
+      "/images/cards/A1-159.jpg",
+      "/images/cards/P-A-001.jpg",
+      "/images/cards/P-A-001.jpg",
+      "/images/cards/P-A-002.jpg",
+      "/images/cards/P-A-005.jpg",
+      "/images/cards/P-A-007.jpg",
+      "/images/cards/P-A-007.jpg",
+      "/images/cards/A1-223.jpg",
+      "/images/cards/A1-223.jpg",
+      "/images/cards/A1-225.jpg",
+      "/images/cards/A1-225.jpg"
+    ],
+    "ImgPartie2": ["/images/cards/A1-153.jpg", "/images/cards/A1-146.jpg"]
   }
 ]

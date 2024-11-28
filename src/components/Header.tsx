@@ -8,10 +8,9 @@ const Header: React.FC = () => {
       {/* Réduit à 60vh au lieu de 100vh */}
       <Image
         src="/bg_lavanville.jpg"
-        alt="Background"
-        layout="fill"
-        objectFit="cover"
-        priority
+        fill
+        style={{ objectFit: "cover" }}
+        alt="Lavanville background"
       />
       {/* <div className="absolute ml-14 lg:ml-0 lg:inset-y-1/4 z-0">
         <Image
