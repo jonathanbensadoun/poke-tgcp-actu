@@ -22,6 +22,7 @@ export default function Home() {
     }
   };
   const summary = [
+    "5 changements que les joueurs attendent plus que tout !",
     "Triopikeur Kabutops, un deck tanky hors méta !",
     "Ectoplasma Hypnomade, le contrôle Psy !",
     "Feuille de Route des évènements de Décembre",

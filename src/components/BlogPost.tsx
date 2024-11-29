@@ -14,6 +14,7 @@ interface BlogPostProps {
   ImgPartie2?: string[];
   ImgPartie3?: string[];
   ImgPartie4?: string[];
+  ImgPartie5?: string[];
   subtitle1?: string;
   content1?: string;
   subtitle2?: string;
@@ -22,6 +23,8 @@ interface BlogPostProps {
   content3?: string;
   subtitle4?: string;
   content4?: string;
+  subtitle5?: string;
+  content5?: string;
   conclusion?: string;
   type?: number;
 }
@@ -36,14 +39,17 @@ const BlogPost: React.FC<BlogPostProps> = ({
   ImgPartie2,
   ImgPartie3,
   ImgPartie4,
+  ImgPartie5,
   content1,
   content2,
   content3,
   content4,
+  content5,
   subtitle1,
   subtitle2,
   subtitle3,
   subtitle4,
+  subtitle5,
   conclusion,
   type = 1,
 }) => {
@@ -152,8 +158,8 @@ const BlogPost: React.FC<BlogPostProps> = ({
                       key={index}
                       src={img}
                       alt={`image illustrant la partie 3 de l'article `}
-                      width={500}
-                      height={400}
+                      width={300}
+                      height={200}
                       className="rounded-lg w-auto h-auto"
                       unoptimized={isGif(img)}
                     />
@@ -176,9 +182,15 @@ const BlogPost: React.FC<BlogPostProps> = ({
                       key={index}
                       src={img}
                       alt={`image illustrant la partie 4 de l'article `}
-                      width={500}
-                      height={400}
-                      className="rounded-lg w-auto h-auto"
+                      width={100}
+                      height={300}
+                      // style={{
+                      //   width: ImgPartie1.length > 1 ? "auto" : "250px",
+                      //   height: "auto",
+                      // }}
+                      className={`rounded-lg ${
+                        ImgPartie4.length > 1 ? "w-auto" : "w-[250px]"
+                      } h-auto `}
                       unoptimized={isGif(img)}
                     />
                   ))}
@@ -186,6 +198,27 @@ const BlogPost: React.FC<BlogPostProps> = ({
               {content4 && (
                 <div className="prose prose-lg my-4">{content4}</div>
               )}
+              {subtitle5 && (
+                <h4 className="text-xl font-semibold mt-4 my-4 text-center lg:text-2xl ">
+                  {subtitle5}
+                </h4>
+              )}
+              <div className="flex flex-row justify-center items-center flex-wrap gap-4 my-4">
+                {ImgPartie5 &&
+                  ImgPartie5.length > 0 &&
+                  ImgPartie5.map((img, index) => (
+                    <Image
+                      quality={50}
+                      key={index}
+                      src={img}
+                      alt={`image illustrant la partie 5 de l'article `}
+                      width={500}
+                      height={400}
+                      className="rounded-lg w-auto h-auto"
+                      unoptimized={isGif(img)}
+                    />
+                  ))}
+              </div>
               <div className="prose prose-lg mt-4 my-4">{conclusion}</div>
             </>
           )}
@@ -327,6 +360,30 @@ const BlogPost: React.FC<BlogPostProps> = ({
               </div>
               {content4 && (
                 <div className="prose prose-lg my-4">{content4}</div>
+              )}
+              {subtitle5 && (
+                <h4 className="text-xl font-semibold mt-4 my-4 text-center lg:text-2xl ">
+                  {subtitle5}
+                </h4>
+              )}
+              <div className="flex flex-row justify-center items-center flex-wrap gap-4 my-4">
+                {ImgPartie5 &&
+                  ImgPartie5.length > 0 &&
+                  ImgPartie5.map((img, index) => (
+                    <Image
+                      quality={50}
+                      key={index}
+                      src={img}
+                      alt={`image illustrant la partie 5 de l'article `}
+                      width={300}
+                      height={400}
+                      className="rounded-lg w-auto h-auto"
+                      unoptimized={isGif(img)}
+                    />
+                  ))}
+              </div>
+              {content5 && (
+                <div className="prose prose-lg my-4">{content5}</div>
               )}
               <div className="prose prose-lg mt-4 my-4">{conclusion}</div>
             </>
