@@ -22,6 +22,7 @@ export default function Home() {
     }
   };
   const summary = [
+    "Amonistar Amphinobi, le duo inattendu !",
     "5 changements que les joueurs attendent plus que tout !",
     "Triopikeur Kabutops, un deck tanky hors méta !",
     "Ectoplasma Hypnomade, le contrôle Psy !",

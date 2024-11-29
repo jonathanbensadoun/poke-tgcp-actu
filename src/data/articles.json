@@ -172,7 +172,7 @@
     "title": "Top 5 des changements attendus par les joueurs dans Pokémon TCG Pocket",
     "content": "Avec une sortie absolument fracassante et plus de 120 millions de dollars de chiffre d'affaires, Pokémon TCG Pocket s’est vraiment imposé comme un des géants du jeu mobile pour cette année 2024. La formule était forcément gagnante dès le départ, la licence la plus populaire au monde, une version simplifiée et dynamique du TCG classique, un mode de combat plus rapide pour coller à la plateforme et des visuels bluffants. Sans oublier, le fer de lance de Pokémon TCG Pocket, la collection de cartes avec une expérience “ouverture boosters” vraiment bien travaillée, et disons le, addictive ! Néanmoins, le jeu est loin d’être parfait et après un début aussi tonitruant, les fans ont des attentes quant à la suite ! Voici les 5 plus grosses attentes de la communauté, pour la suite de notre jeu préféré :  ",
     "subtitle1": "Les joueurs réclament plus de cartes !",
-    "content1": "Que vous soyez collectionneur et combattant, on a jamais assez de cartes ! Les 260 premières cartes commencent à être vues et revues au point que les joueurs attendent le prochain set avec impatience afin de se remettre à ouvrir des boosters par grand paquets de 10 ! Et chacun y va de ses spéculations et attentes, arrivée de la Gen 2, des pokémons Aciers pour combler ce roster très limité pour ce type, des Pokémon légendaire. On peut aussi imaginer que Pokémon TCGP ne suive pas le schéma des générations car même si le set A1 comprend les 151 premiers, d’autres Pokémon de la Gen 5 ou 7 font aussi leur apparition ! Dans tous les cas, il faudra être patient même si un nouvel évènement le 28 novembre nous apporte de nouvelles cartes promos, et qu’un mini set est prévu pour la fin de l’année ! La première vraie extension de Pokémon TCGP est quant à elle prévue pour fin janvier avec 230 cartes,son lot de cartes cachées et full arts !",
+    "content1": "Que vous soyez collectionneur ou combattant, on a jamais assez de cartes ! Les 260 premières cartes commencent à être vues et revues au point que les joueurs attendent le prochain set avec impatience afin de se remettre à ouvrir des boosters par grand paquets de 10 ! Et chacun y va de ses spéculations et attentes, arrivée de la Gen 2, des pokémons Aciers pour combler ce roster très limité pour ce type, des Pokémon légendaire. On peut aussi imaginer que Pokémon TCGP ne suive pas le schéma des générations car même si le set A1 comprend les 151 premiers, d’autres Pokémon de la Gen 5 ou 7 font aussi leur apparition ! Dans tous les cas, il faudra être patient même si un nouvel évènement le 28 novembre nous apporte de nouvelles cartes promos, et qu’un mini set est prévu pour la fin de l’année ! La première vraie extension de Pokémon TCGP est quant à elle prévue pour fin janvier avec 230 cartes,son lot de cartes cachées et full arts !",
     "subtitle2": "Où sont les autres formats de jeu ?",
     "content2": "La version actuelle de Pokémon TCGP comporte seulement deux formats de jeu, un mode aléatoire où on peut sélectionner son niveau entre Novice et Vétéran. Malheureusement sans tri au préalable, le mode novice est absolument envahi par des joueurs experts en quête de victoires faciles. Il existe aussi un autre mode proposant des matchs privés avec un système de code. Devant ce vide, les joueurs ont même mis en place des formats grâce aux matchs privés et via un système de code comme “NOEX” un format avec pour seule règle de jouer sans Pokémon EX. La communauté aimerait cependant que ce genre d’initiative vienne directement du jeu avec l’implémentation d’un mode compétitif classé, du 2v2, un NOEX officiel… bref de la diversité !",
     "subtitle3": "De nouvelles mécaniques et stratégies",
@@ -199,5 +199,42 @@
       "/images/article_5/AmphiAlt.jpg"
     ],
     "ImgPartie5": ["/images/article_5/échanges.jpg"]
+  },
+  {
+    "id": "Amonistar Amphinobi, le duo inattendu !",
+    "title": "Deck du jour : Amonistar Amphinobi, le duo inattendu !",
+    "content": "Un binôme hors du commun aujourd’hui avec deux Pokémons un peu délaissés par la méta ! Le concept du Deck est assez simple, Amonistar empêche l’adversaire d’attaquer, l’obligeant à faire évoluer ou interchanger ses pokémon afin de pouvoir survivre. Amphinobi, grâce à son talent, continue à mettre la pression à ces Pokémons ayant battu en retraite ! Une fois que la mise en place est faite, c'est une pression constante qui s’applique au plateau ennemi ! Mais comme vous l’avez remarqué c’est un Deck qui demande 2 Pokémons niveau 2, on utilisera alors un tank, ici Mewtwo afin de temporiser un peu notre sortie. Un deck très intéressant à jouer qui demandera néanmoins un peu de pratique pour être maîtrisé !",
+    "subtitle1": "Alternatives",
+    "content1": "Mewtwo peut être remplacé par Kangourex, Ronflex ou Locklass si vous le souhaitez. Amonistar peut facilement laisser sa place pour des alternatives plus métas comme Starros EX ou Artikodin EX.",
+    "author": "Driinja",
+    "date": "2024-11-29",
+    "ImgPartie1": [
+      "/images/cards/A1-087.jpg",
+      "/images/cards/A1-087.jpg",
+      "/images/cards/A1-088.jpg",
+      "/images/cards/A1-088.jpg",
+      "/images/cards/A1-089.jpg",
+      "/images/cards/A1-089.jpg",
+      "/images/cards/A1-216.jpg",
+      "/images/cards/A1-216.jpg",
+      "/images/cards/A1-081.jpg",
+      "/images/cards/A1-081.jpg",
+      "/images/cards/A1-082.jpg",
+      "/images/cards/A1-082.jpg",
+      "/images/cards/A1-128.jpg",
+      "/images/cards/P-A-001.jpg",
+      "/images/cards/P-A-002.jpg",
+      "/images/cards/P-A-005.jpg",
+      "/images/cards/P-A-007.jpg",
+      "/images/cards/P-A-007.jpg",
+      "/images/cards/A1-223.jpg",
+      "/images/cards/A1-225.jpg"
+    ],
+    "ImgPartie2": [
+      "/images/cards/A1-203.jpg",
+      "/images/cards/A1-211.jpg",
+      "/images/cards/A1-076.jpg",
+      "/images/cards/A1-084.jpg"
+    ]
   }
 ]

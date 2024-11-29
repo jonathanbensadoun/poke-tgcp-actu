@@ -211,7 +211,7 @@
     ],
     "alternat": ["A1-043"],
     "rank": "B",
-    "Description": "Un deck qui tape vite et fort, c’est le deck Auguste, Feunard peut en deux tours sortir 90 de dégâts, assez pour tuer ou mettre en difficulté la quasi totalité des pokémons pouvant être mis en face ! Couplé à son dresseur, Auguste, c’est 120 de dégâts qui arrivent directement dans la tête de l’ennemi, assez pour contrer n’importe quelle menace ! Ici on l’utilise avec Sulfura afin d’aider à setup l’énergie qui devra être sacrifiée par les feunards, mais l’oiseau légendaire peut facilement être remplacé par Galopa pour mettre plus rapidement la pression"
+    "description": "Un deck qui tape vite et fort, c’est le deck Auguste, Feunard peut en deux tours sortir 90 de dégâts, assez pour tuer ou mettre en difficulté la quasi totalité des pokémons pouvant être mis en face ! Couplé à son dresseur, Auguste, c’est 120 de dégâts qui arrivent directement dans la tête de l’ennemi, assez pour contrer n’importe quelle menace ! Ici on l’utilise avec Sulfura afin d’aider à setup l’énergie qui devra être sacrifiée par les feunards, mais l’oiseau légendaire peut facilement être remplacé par Galopa pour mettre plus rapidement la pression"
   },
   {
     "id": 8,
@@ -547,5 +547,36 @@
     "rank": "B",
     "description": "Triopikeur et Kabutops, deux Pokémon avec des attaques à 1 d’énergie, donc très rapide à mettre en place, mais chacun avec des capacités de survie assez élevées ! L’attaque de Triopikeur vient avec un lancé de dés lui donnant la chance de ne subir aucun dégâts au tour suivant. Il pourra tanker tout le début de partie jusqu’à ce que vous mettiez en place Kabutops, qui lui aussi est très résistant grâce à sa capacité de se soigner du montant des dégâts qu'il inflige. Sa capacité à survivre couplé à son type combat en font un très bon counter du deck Pikachu EX, mais il manque un peu d'agressivité contre d’autres decks plus orientés “contrôle.",
     "description_alternate": "Vous pourrez remplacer Kabutops par d’autres Pokémon afin d’obtenir une version plus agressive de celui-ci ! Ossatueur EX est un bon exemple car il s’obtient très facilement et peut faire jusqu’à 160 dégâts pour seulement deux points d’énergie. Évidemment cette version avec le côté complètement aléatoire de la carte ! Ou alors on peut imaginer un Mackogneur EX, une carte EX avec une des meilleures caractéristiques cumulées du jeu afin d'ajouter du “punch” à votre deck"
+  },
+  {
+    "new": true,
+    "id": 19,
+    "name": "AmphiStar",
+    "nameImg": "AmphiStar",
+    "deck": [
+      "A1-087",
+      "A1-087",
+      "A1-088",
+      "A1-088",
+      "A1-089",
+      "A1-089",
+      "A1-216",
+      "A1-216",
+      "A1-081",
+      "A1-081",
+      "A1-082",
+      "A1-082",
+      "P-A-001",
+      "P-A-002",
+      "P-A-005",
+      "P-A-007",
+      "P-A-007",
+      "A1-223",
+      "A1-225"
+    ],
+    "alternat": ["A1-203", "A1-211", "A1-076", "A1-084"],
+    "rank": "Mention Honorable",
+    "description": "Un binôme hors du commun aujourd’hui avec deux Pokémons un peu délaissés par la méta ! Le concept du Deck est assez simple, Amonistar empêche l’adversaire d’attaquer, l’obligeant à faire évoluer ou interchanger ses pokémon afin de pouvoir survivre. Amphinobi, grâce à son talent, continue à mettre la pression à ces Pokémons ayant battu en retraite ! Une fois que la mise en place est faite, c'est une pression constante qui s’applique au plateau ennemi ! Mais comme vous l’avez remarqué c’est un Deck qui demande 2 Pokémons niveau 2, on utilisera alors un tank, ici Mewtwo afin de temporiser un peu notre sortie. Un deck très intéressant à jouer qui demandera néanmoins un peu de pratique pour être maîtrisé ! ",
+    "description_alternate": "Mewtwo peut être remplacé par Kangourex, Ronflex ou Locklass si vous le souhaitez. Amonistar peut facilement laisser sa place pour des alternatives plus métas comme Starros EX ou Artikodin EX."
   }
 ]
