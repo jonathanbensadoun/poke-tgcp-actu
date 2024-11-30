@@ -22,6 +22,7 @@ export default function Home() {
     }
   };
   const summary = [
+    "Top deck pour battre l’évènement Florizarre !",
     "Amonistar Amphinobi, le duo inattendu !",
     "5 changements que les joueurs attendent plus que tout !",
     "Triopikeur Kabutops, un deck tanky hors méta !",
