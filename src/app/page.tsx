@@ -92,7 +92,7 @@ export default function Home() {
                   <div
                     key={post.id}
                     id={post.id}
-                    className="flex flex-col justify-center items-center"
+                    className="flex flex-col justify-center items-center lg:w-full"
                   >
                     <BlogPost
                       {...post}

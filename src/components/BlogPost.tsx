@@ -58,7 +58,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
   return (
     <>
       {type === 1 && (
-        <article className={`w-full lg:w-1/2 m-2 p-4 ${className}`}>
+        <article className={`w-full lg:w-1/2  m-2 p-4 ${className}`}>
           <h3 className="text-2xl lg:text-3xl font-bold </article>mb-2 my-4">
             {title}
           </h3>
@@ -85,7 +85,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
               })}`}
             </div>
           </div>
-          <div className="prose prose-lg my-4">{content}</div>
+          <div className="prose prose-lg  my-4">{content}</div>
 
           {isExpanded && (
             <>
