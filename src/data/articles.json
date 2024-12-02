@@ -329,6 +329,28 @@
       "/images/cards/A1-225.jpg",
       "/images/cards/A1-225.jpg"
     ]
+  },
+  {
+    "type": 2,
+    "id": "Pikachu à l'honneur dans le nouveau pass premium",
+    "title": "Le pass premium a été mis à jour, ce mois ci c'est Pikachu qui est à l'honneur",
+    "content": "Le pass de combat est devenu une des microtransactions les plus courantes dans l'univers des jeux vidéos en ligne et Pokémon TCG Pocket ne déroge pas à la règle ! Pour 9.99€ vous aurez droit à un paquet de cartes supplémentaire par jour (ce qui en fait le meilleur rapport qualité prix par rapport aux Pokélingots), mais aussi un ensemble de missions mensuelles diverses afin de récolter des sabliers ainsi que des tickets prémiums.",
+    "subtitle1": "La star de ce mois ci ? J'ai nommé Pikachu !",
+    "content1": "Comme vous l'avez vu précédement, certaines missions vous apporteront des tickets prémiums, nécessaires afin d'acheter tapis, pièce, couverture, protège-carte et arrière plan avec pour thème Pikachu ! Ce sont dans l'ensemble des missions extrèmement simple qui se résument à ouvrir des boosters et collectioner des cartes de tout type. En prime vous aurez droit à des sabliers et sabliers miracles, que vous pourrez commencer à accumuler pour le nouveau Mini-Set qui sortira ce 18 décembre ! A noter que la partie mensuelle de la boutique a elle aussi été réinitialisée, vous pouvez dès lors dépenser vos tickets boutique afin d'obtenir davantage de sabliers et sabliers miracles.",
+    "subtitle2": "La carte promo qui fait la différence",
+    "content2": "Le clou du spectacle n'est autre que la carte promo offerte ce mois ci en prenant le pass combat. Le mois précédent le thème était orienté Mewtwo afin pour carte promo Pikachu, aujourd'hui on inverse tout afin une carte Mewtwo promo absolument magnifique qui rentre directement dans tout mes decks.",
+    "conclusion": "Le pass prémium est aujourd'hui le meilleur rapport qualité/prix qu'on puisse trouver sur Pokémon TCGP car il nous permet d'obtenir 30 paquets de cartes, cartes promo, sablier et cosmétiques pour ce prix ! Si on est amoureux de Pokémon TCG Pocket, c'est à mon sens l'investissement le plus rentable pour les joueurs.",
+    "author": "Driinja",
+    "date": "2024-12-02",
+    "ImgPartie1": [
+      "/images/article_7/recompense1.png",
+      "/images/article_7/recompense2.png"
+  ],
+    "ImgPartie2": ["/images/article_7/Mewtwopromo.png"],
+    "ImgPartie3": [
+      "/images/article_7/recompense.gif"
+  ]
+
   }
   
 ]

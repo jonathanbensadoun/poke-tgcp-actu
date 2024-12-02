@@ -22,6 +22,7 @@ export default function Home() {
     }
   };
   const summary = [
+    "Pikachu à l'honneur dans le nouveau pass premium",
     "Grodoudou Smogogo, le duo des afflictions",
     "Top deck pour battre l’évènement Florizarre !",
     "Amonistar Amphinobi, le duo inattendu !",
