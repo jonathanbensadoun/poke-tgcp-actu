@@ -22,6 +22,7 @@ export default function Home() {
     }
   };
   const summary = [
+    "Grodoudou Smogogo, le duo des afflictions",
     "Top deck pour battre l’évènement Florizarre !",
     "Amonistar Amphinobi, le duo inattendu !",
     "5 changements que les joueurs attendent plus que tout !",

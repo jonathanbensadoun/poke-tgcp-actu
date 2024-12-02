@@ -293,12 +293,42 @@
       "/images/cards/P-A-002.jpg",
       "/images/cards/P-A-005.jpg",
       "/images/cards/P-A-005.jpg",
-      "/images/cards/A1-007.jpg",
-      "/images/cards/A1-007.jpg",
+      "/images/cards/P-A-007.jpg",
+      "/images/cards/P-A-007.jpg",
       "/images/cards/A1-223.jpg",
       "/images/cards/A1-223.jpg",
       "/images/cards/A1-225.jpg",
       "/images/cards/A1-225.jpg"
     ]
+  },
+  {
+    "title": "Deck du jour : Grodoudou Smogogo, le duo des afflictions !",
+    "id": "Grodoudou Smogogo, le duo des afflictions",
+    "content": "Si vous cherchez un deck pour rendre dingue votre adversaire, celui-ci est fait pour vous ! Le combo Smogogo / Koga est assez connu aujourd’hui, Smogogo est un Pokémon exceptionnel qui permet de mettre une pression incroyable sur l’ennemi entre ses 30 points de dégâts pour seulement une énergie, et son poison constant ! Couplé à Koga, qui nous permet de le récupérer dans la main et réinitialiser ses PV, on se retrouve avec un Pokémon très solide au front. Le deuxième Pokémon de ce duo est Grodoudou ! Il possède un bon montant de PV, tape correctement et endort grâce à ses attaques, ce qui fait de celui-ci un très bon Pokémon pour contrôler l’ennemi. Sachant qu’avec le nouveau Rondoudou Promo, on peut même endormir au plus tôt du combat, on se retrouve avec un Deck assez efficace cumulant sommeil et poison pour tuer les ennemis à petit feu !",
+    "author": "Driinja",
+    "date": "2024-12-02",
+    "ImgPartie1": [
+      "/images/cards/A1-176.jpg",
+      "/images/cards/A1-176.jpg",
+      "/images/cards/A1-177.jpg",
+      "/images/cards/A1-177.jpg",
+      "/images/cards/P-A-022.jpg",
+      "/images/cards/P-A-022.jpg",
+      "/images/cards/A1-195.jpg",
+      "/images/cards/A1-195.jpg",
+      "/images/cards/P-A-001.jpg",
+      "/images/cards/P-A-002.jpg",
+      "/images/cards/P-A-002.jpg",
+      "/images/cards/P-A-005.jpg",
+      "/images/cards/P-A-005.jpg",
+      "/images/cards/P-A-007.jpg",
+      "/images/cards/P-A-007.jpg",
+      "/images/cards/A1-222.jpg",
+      "/images/cards/A1-222.jpg",
+      "/images/cards/A1-223.jpg",
+      "/images/cards/A1-225.jpg",
+      "/images/cards/A1-225.jpg"
+    ]
   }
+  
 ]
