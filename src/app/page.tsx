@@ -22,6 +22,7 @@ export default function Home() {
     }
   };
   const summary = [
+    "Grodoudou Amphinobi, j’endors et tu tapes !",
     "Pikachu à l'honneur dans le nouveau pass premium",
     "Grodoudou Smogogo, le duo des afflictions",
     "Top deck pour battre l’évènement Florizarre !",

@@ -605,14 +605,38 @@
       "A1-223",
       "A1-225",
       "A1-225"
-
-
     ],
     "rank": "B",
     "description": "Si vous cherchez un deck pour rendre dingue votre adversaire, celui-ci est fait pour vous ! Le combo Smogogo / Koga est assez connu aujourd’hui, Smogogo est un Pokémon exceptionnel qui permet de mettre une pression incroyable sur l’ennemi entre ses 30 points de dégâts pour seulement une énergie, et son poison constant ! Couplé à Koga, qui nous permet de le récupérer dans la main et réinitialiser ses PV, on se retrouve avec un Pokémon très solide au front. Le deuxième Pokémon de ce duo est Grodoudou ! Il possède un bon montant de PV, tape correctement et endort grâce à ses attaques, ce qui fait de celui-ci un très bon Pokémon pour contrôler l’ennemi. Sachant qu’avec le nouveau Rondoudou Promo, on peut même endormir au plus tôt du combat, on se retrouve avec un Deck assez efficace cumulant sommeil et poison pour tuer les ennemis à petit feu !   "
-      }
+  },
+  {
+    "new": true,
+    "id": 21,
+    "name": "GroPhinobi",
+    "nameImg": "GroPhinobi",
+    "deck": [
+      "A1-087",
+      "A1-087",
+      "A1-088",
+      "A1-088",
+      "A1-089",
+      "A1-089",
+      "P-A-022",
+      "P-A-022",
+      "A1-195",
+      "A1-195",
+      "A1-203",
+      "P-A-001",
+      "P-A-002",
+      "P-A-002",
+      "P-A-005",
+      "P-A-005",
+      "P-A-007",
+      "P-A-007",
+      "A1-223",
+      "A1-225"
+    ],
+    "rank": "B",
+    "description": "Une autre itération de notre Deck Grodoudou (oui j’adore la nouvelle carte promo rondoudou, voilà, c’est dit) et cette fois avec Amphinobi ! L’objectif est le même, contrôlé grâce à l’endormissement de Rondoudou et Grodoudou EX. Dans cette version on utilise le talent d’Amphinobi afin de taper les Pokémon du banc, bloqué grâce au sommeil infligé par Grodoudou EX ! Un Deck hors méta qui change et qui peut avoir de très bonnes sorties, j’ai néanmoins rajouté un Pokémon tank avec Kangourex afin de temporiser un peu si la sortie est compliquée, vous verrez si vous souhaitez le garder ou non! "
+  }
 ]
-
-
-  
-
