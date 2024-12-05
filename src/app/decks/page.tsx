@@ -4,7 +4,6 @@ import Link from "next/link";
 import deckData from "@/data/decks.json";
 import Image from "next/image";
 import ScrollToTopButton from "@/components/SrollToTop";
-import { MdNewReleases } from "react-icons/md";
 
 // Définir le type des données des decks
 type Rank = "S" | "A" | "B" | "Mention Honorable"; // Ajout de "Mention Honorable"
@@ -43,11 +42,21 @@ export default function DecksPage() {
             >
               <Link href={`/decks/${deck.nameImg}`}>
                 {deck.new && (
-                  <div className="absolute m-4 bg-white bg-opacity-70 rounded-full w-8 h-8 lg:w-20 lg:h-20">
-                    <MdNewReleases className="w-8 h-8 lg:w-20  lg:h-20 text-blue-600 text-shadow-lg" />
+                  <div className="absolute m-1 bg-[#FFCB05] bg-opacity-30 rounded-full w-16 h-16 p-2 md:w-24 lg:h-24">
+                    {/* <MdNewReleases className="w-8 h-8 lg:w-20  lg:h-20 text-blue-600 text-shadow-lg" />
                     <p className="text-blue-500 text-sm lg:text-lg font-bold">
                       Nouveau
-                    </p>
+                    </p> */}
+                    <Image
+                      quality={50}
+                      src={`/images/nouveau.png`}
+                      alt={`Carte Pokémon TCG Pocket miniature du deck ${deck.nameImg} `}
+                      width={500}
+                      height={0}
+                      style={{ width: "auto", height: "auto" }}
+                      priority
+                      className="rounded-lg"
+                    />
                   </div>
                 )}
                 <Image
