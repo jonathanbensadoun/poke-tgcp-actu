@@ -2150,6 +2150,9 @@
   },
   {
     "id": "P-A-024",
-    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA"
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
   }
 ]
