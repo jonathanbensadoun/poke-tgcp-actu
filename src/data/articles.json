@@ -394,7 +394,35 @@
   "/images/cards/A1-257.jpg"
   ],
   "ImgPartie3": ["/images/Article_8/freewin.jpg"]
-}
-
-
+  },
+  {
+    "id": "Smogogo Grolem : Le rocher toxique !",
+    "title": "Deck du jour : mogogo Grolem : Le rocher toxique !",
+    "content": "Encore un duo innatendu ! Grolem est un Pokémon très fort pour un Non-EX avec une quantité de vie conséquente couplée à une attaque dévastatrice, au prix de quelques points de vie ! Si on a la chance de jouer Pierre assez tôt, il permettra de submerger n'importe quel Pokémon en face. On le met en team avec le roi de la temporisation, Smogogo/Koga qui vont permettre de gagner du temps le temps que le setup se fasse ! En somme un deck sans cartes rares, avec un contrôle correct et qui peut surprendre même les plus gros decks en face !",
+    "author": "Driinja",
+    "date": "2024-12-06",
+    "ImgPartie1": [
+      "/images/cards/A1-147.jpg",
+      "/images/cards/A1-147.jpg",
+      "/images/cards/A1-148.jpg",
+      "/images/cards/A1-148.jpg",
+      "/images/cards/A1-149.jpg",
+      "/images/cards/A1-149.jpg",
+      "/images/cards/A1-176.jpg",
+      "/images/cards/A1-176.jpg",
+      "/images/cards/A1-177.jpg",
+      "/images/cards/A1-177.jpg",
+      "/images/cards/P-A-001.jpg",
+      "/images/cards/P-A-002.jpg",
+      "/images/cards/P-A-005.jpg",
+      "/images/cards/P-A-005.jpg",
+      "/images/cards/P-A-007.jpg",
+      "/images/cards/P-A-007.jpg",
+      "/images/cards/A1-222.jpg",
+      "/images/cards/A1-222.jpg",
+      "/images/cards/A1-224.jpg",
+      "/images/cards/A1-224.jpg"
+    ]
+  }
+  
 ]
