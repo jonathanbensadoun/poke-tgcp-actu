@@ -377,23 +377,5 @@
       "/images/cards/A1-223.jpg",
       "/images/cards/A1-225.jpg"
     ]
-  },
-  {
-    "id": "Nouvel Event JcJ : Il faudra enchainer les victoires ! ",
-    "type": 2,
-    "title": "Un nouvel évènement va débarquer dans Pokémon TCG Pocket ... et il va falloit enchainer les victoires en JcJ !",
-    "content": "Lundi 9 Décembre nous allons voir arriver un nouvel évènement et pour la 2eme fois la thématique sera le joueur contre joueur mais avec une petite différence par rapport à la dernière fois ! Une fois de plus nous aurons 4 emblèmes uniques à aller chercher, mais cette fois il va falloir enchainer les victoires d'affilée pour les obtenir. ",
-    "content1": "Vue l'état de la méta et la puissance dominatrice qu'exercent des decks comme Pikachu, Mewtwo, Dracofeu et Starros, on ne peut qu'anticiper de tomber en boucle contre les mêmes compositions pendant l'intégralité de l'évènement. Lors du premier évènement nous avions simplement pour objectif d'arriver à 50 victoires, et même avec des decks moins performants ou hors méta, on pouvait tirer son épingle du jeu ! Ici, enchainer 5 victoires d'affilée avec des decks aussi surpuissants en face peut avoir l'air effrayant sinon avec des decks qui sortent des habitudes !",
-    "content2": "Face à ce challenge, quelles solutions avons nous ? La première est de jouer méta et choisir les decks les plus puissants et stable, c'est à dire Pikachu ou Mewtwo EX (que vous retrouverez évidement dans la partie deck de notre site). Evidement Starros/Artikodin ou Dracofeu/Sulfura seront de très bons decks à choisir pour arriver à l'objectif ! Une dernière stratégie, qui n'est pas encore prouvée de fonctionner (mais qui était viable lors du dernier évènement) c'était de faire des combats contre des amis grâce à l'outil de match privé, et de s'organiser afin que chacun d'entre vous récolte les fameux victoires d'affilée !",
-    "conclusion": "En conclusion un évènement qui risque d'être dur mais challengeant ! J'ai hâte de voir le résultat des courses et voir si des decks arriveront à émerger pour combattre cette méta !",
-    "author": "Driinja",
-    "date": "2024-12-06",
-    "ImgPartie1": ["/images/Article_8/embleme.jpg"],
-    "ImgPartie2": ["/images/cards/A1-280.jpg",
-  "/images/cards/A1-281.jpg",
-  "/images/cards/A1-282.jpg",
-  "/images/cards/A1-257.jpg"
-  ],
-  "ImgPartie3": ["/images/Article_8/freewin.jpg"]
-}
+  }
 ]
