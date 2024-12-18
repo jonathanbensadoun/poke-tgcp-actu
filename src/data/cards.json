@@ -2155,90 +2155,606 @@
     "stage": "Basic",
     "type": 3
   },
-  { "id": "A1a-1" },
-  { "id": "A1a-2" },
-  { "id": "A1a-3" },
-  { "id": "A1a-4" },
-  { "id": "A1a-5" },
-  { "id": "A1a-6" },
-  { "id": "A1a-7" },
-  { "id": "A1a-8" },
-  { "id": "A1a-9" },
-  { "id": "A1a-10" },
-  { "id": "A1a-11" },
-  { "id": "A1a-12" },
-  { "id": "A1a-13" },
-  { "id": "A1a-14" },
-  { "id": "A1a-15" },
-  { "id": "A1a-16" },
-  { "id": "A1a-17" },
-  { "id": "A1a-18" },
-  { "id": "A1a-19" },
-  { "id": "A1a-20" },
-  { "id": "A1a-21" },
-  { "id": "A1a-22" },
-  { "id": "A1a-23" },
-  { "id": "A1a-24" },
-  { "id": "A1a-25" },
-  { "id": "A1a-26" },
-  { "id": "A1a-27" },
-  { "id": "A1a-28" },
-  { "id": "A1a-29" },
-  { "id": "A1a-30" },
-  { "id": "A1a-31" },
-  { "id": "A1a-32" },
-  { "id": "A1a-33" },
-  { "id": "A1a-34" },
-  { "id": "A1a-35" },
-  { "id": "A1a-36" },
-  { "id": "A1a-37" },
-  { "id": "A1a-38" },
-  { "id": "A1a-39" },
-  { "id": "A1a-40" },
-  { "id": "A1a-41" },
-  { "id": "A1a-42" },
-  { "id": "A1a-43" },
-  { "id": "A1a-44" },
-  { "id": "A1a-45" },
-  { "id": "A1a-46" },
-  { "id": "A1a-47" },
-  { "id": "A1a-48" },
-  { "id": "A1a-49" },
-  { "id": "A1a-50" },
-  { "id": "A1a-51" },
-  { "id": "A1a-52" },
-  { "id": "A1a-53" },
-  { "id": "A1a-54" },
-  { "id": "A1a-55" },
-  { "id": "A1a-56" },
-  { "id": "A1a-57" },
-  { "id": "A1a-58" },
-  { "id": "A1a-59" },
-  { "id": "A1a-60" },
-  { "id": "A1a-61" },
-  { "id": "A1a-62" },
-  { "id": "A1a-63" },
-  { "id": "A1a-64" },
-  { "id": "A1a-65" },
-  { "id": "A1a-66" },
-  { "id": "A1a-67" },
-  { "id": "A1a-68" },
-  { "id": "A1a-69" },
-  { "id": "A1a-70" },
-  { "id": "A1a-71" },
-  { "id": "A1a-72" },
-  { "id": "A1a-73" },
-  { "id": "A1a-74" },
-  { "id": "A1a-75" },
-  { "id": "A1a-76" },
-  { "id": "A1a-77" },
-  { "id": "A1a-78" },
-  { "id": "A1a-79" },
-  { "id": "A1a-80" },
-  { "id": "A1a-81" },
-  { "id": "A1a-82" },
-  { "id": "A1a-83" },
-  { "id": "A1a-84" },
-  { "id": "A1a-85" },
-  { "id": "A1a-86" }
+  {
+    "id": "A1a-1",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-2",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-3",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-4",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-5",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-6",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-7",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-8",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-9",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-10",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-11",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-12",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-13",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-14",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-15",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-16",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-17",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-18",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-19",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-20",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-21",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-22",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-23",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-24",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-25",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-26",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-27",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-28",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-29",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-30",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-31",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-32",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-33",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-34",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-35",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-36",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-37",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-38",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-39",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-40",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-41",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-42",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-43",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-44",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-45",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-46",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-47",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-48",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-49",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-50",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-51",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-52",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-53",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-54",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-55",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-56",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-57",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-58",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-59",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-60",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-61",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-62",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-63",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-64",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-65",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-66",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-67",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-68",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-69",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-70",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-71",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-72",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-73",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-74",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-75",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-76",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-77",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-78",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-79",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-80",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-81",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-82",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-83",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-84",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-85",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  },
+  {
+    "id": "A1a-86",
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAA",
+    "hp": 140,
+    "stage": "Basic",
+    "type": 3
+  }
 ]
