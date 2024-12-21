@@ -48,10 +48,10 @@
       "P-A-002",
       "P-A-005",
       "P-A-005",
-      "P-A-006",
-      "P-A-006",
       "P-A-007",
       "P-A-007",
+      "A1a-82",
+      "A1a-82",
       "A1-225",
       "A1-225"
     ],
@@ -136,7 +136,6 @@
       "A1-177",
       "A1-177",
       "P-A-001",
-      "P-A-001",
       "P-A-002",
       "P-A-002",
       "P-A-005",
@@ -146,7 +145,8 @@
       "A1-222",
       "A1-222",
       "A1-225",
-      "A1-225"
+      "A1-225",
+      "A1a-68"
     ],
     "alternat": ["A1-175"],
     "rank": "A",
@@ -458,7 +458,6 @@
   },
   {
     "id": 16,
-    "new": true,
     "name": "ArboCarnage",
     "nameImg": "ArboCarnage",
     "deck": [
@@ -490,7 +489,6 @@
   },
   {
     "id": 17,
-    "new": true,
     "name": "HypnoPlasma",
     "nameImg": "HypnoPlasma",
     "deck": [
@@ -520,7 +518,6 @@
   },
   {
     "id": 18,
-    "new": true,
     "name": "TrioButops",
     "nameImg": "TrioButops",
     "deck": [
@@ -551,7 +548,6 @@
     "description_alternate": "Vous pourrez remplacer Kabutops par d’autres Pokémon afin d’obtenir une version plus agressive de celui-ci ! Ossatueur EX est un bon exemple car il s’obtient très facilement et peut faire jusqu’à 160 dégâts pour seulement deux points d’énergie. Évidemment cette version avec le côté complètement aléatoire de la carte ! Ou alors on peut imaginer un Mackogneur EX, une carte EX avec une des meilleures caractéristiques cumulées du jeu afin d'ajouter du “punch” à votre deck"
   },
   {
-    "new": true,
     "id": 19,
     "name": "AmphiStar",
     "nameImg": "AmphiStar",
@@ -582,7 +578,6 @@
     "description_alternate": "Mewtwo peut être remplacé par Kangourex, Ronflex ou Locklass si vous le souhaitez. Amonistar peut facilement laisser sa place pour des alternatives plus métas comme Starros EX ou Artikodin EX."
   },
   {
-    "new": true,
     "id": 20,
     "name": "Grogogo",
     "nameImg": "Grogogo",
@@ -612,7 +607,6 @@
     "description": "Si vous cherchez un deck pour rendre dingue votre adversaire, celui-ci est fait pour vous ! Le combo Smogogo / Koga est assez connu aujourd’hui, Smogogo est un Pokémon exceptionnel qui permet de mettre une pression incroyable sur l’ennemi entre ses 30 points de dégâts pour seulement une énergie, et son poison constant ! Couplé à Koga, qui nous permet de le récupérer dans la main et réinitialiser ses PV, on se retrouve avec un Pokémon très solide au front. Le deuxième Pokémon de ce duo est Grodoudou ! Il possède un bon montant de PV, tape correctement et endort grâce à ses attaques, ce qui fait de celui-ci un très bon Pokémon pour contrôler l’ennemi. Sachant qu’avec le nouveau Rondoudou Promo, on peut même endormir au plus tôt du combat, on se retrouve avec un Deck assez efficace cumulant sommeil et poison pour tuer les ennemis à petit feu !   "
   },
   {
-    "new": true,
     "id": 21,
     "name": "GroPhinobi",
     "nameImg": "GroPhinobi",
@@ -801,7 +795,6 @@
       "A1-176",
       "A1-177",
       "A1-177",
-      "A1-117",
       "A1a-53",
       "A1a-53",
       "A1a-54",
@@ -819,7 +812,7 @@
       "A1-222",
       "A1-222"
     ],
-    "rank": "B",
+    "rank": "A",
     "description": "Encore un nouveau venu avec Brutapod, pokémon ayant le potentiel de taper 120 pour 2 énergies si l'ennemi est empoisonné ! On le combine évidement avec Smogogo / Koga afin d'arriver à l'effet voulu grâce au talent de Smogogo et sa faciliter à sortir du poste actif avec son dresseur. On utilisera aussi le nouveau Tauros qui sera la terreur des Pokémons EX avec ses 120 de dégats pour 3 énergies. Un deck qui demandera un peu de mise en place mais qui sera redoutable une fois maitrisé."
   },
   {
@@ -839,13 +832,14 @@
       "A1a-46",
       "A1a-46",
       "P-A-002",
-      "P-A-002",
       "P-A-005",
       "P-A-005",
       "P-A-007",
       "P-A-007",
       "A1-218",
+      "A1-218",
       "A1a-64",
+      "A1a-68",
       "A1-225"
     ],
     "rank": "B",
@@ -880,5 +874,65 @@
     ],
     "rank": "A",
     "description": "Drakkarmin s'impose dans la méta comme le tank de prédilection, possédant une bonne défense et commençant à blesser les ennemis, il pourra se mettre en combo facilement avec Denticrisse qui fera 70 de dégats pour seulement 2 énergies ! Le fer de lance du Deck étant Tortank EX, l'objectif sera de le mettre en place sur le banc pendant que Drakkarmin tank en position active avec potentiellement Denticrisse pour terminer certain Pokémons ennemis."
+  },
+  {
+    "new": true,
+    "id": 29,
+    "name": "Grokkarmin",
+    "nameImg": "Grokkarmin",
+    "deck": [
+      "A1-147",
+      "A1-147",
+      "A1a-44",
+      "A1a-44",
+      "A1a-45",
+      "A1a-45",
+      "A1a-56",
+      "A1a-56",
+      "P-A-001",
+      "P-A-001",
+      "P-A-002",
+      "P-A-005",
+      "P-A-005",
+      "P-A-007",
+      "P-A-007",
+      "A1-224",
+      "A1-224",
+      "A1-225",
+      "A1a-68",
+      "A1a-68"
+    ],
+    "rank": "B",
+    "description": "On exploite ici le nouveau Grolem, mur absolu grâce à ses 160 PV ainsi qu'à son attaque qui réduit de 30 les dégats qu'il subit. Il se met aussi en place avec davantage d'aisance grâce au nouveau Grolem qui ne nécessite que 2 énergies afin d'être exploité, offrant une meilleure continuité dans son utilisation. On le mettra en équipe avec Drakkarmin, un énorme tank arrivé avec le mini-set qui permettra de facilement temporiser la mise en place de Grolem."
+  },
+  {
+    "new": true,
+    "id": 29,
+    "name": "Sulfyrax",
+    "nameImg": "Sulfyrax",
+    "deck": [
+      "A1-039",
+      "A1-039",
+      "A1-254",
+      "A1-254",
+      "A1a-13",
+      "A1a-13",
+      "A1a-14",
+      "A1a-14",
+      "A1-274",
+      "A1-274",
+      "P-A-005",
+      "P-A-005",
+      "P-A-007",
+      "P-A-007",
+      "A1a-64",
+      "A1a-64",
+      "A1-223",
+      "A1-225",
+      "A1a-68",
+      "A1a-68"
+    ],
+    "rank": "B",
+    "description": "Un combo classique des Pokémon feu avec Sulfura en Actif afin de générer de l'énergie pour son équipe. On retrouvera ensuite un autre habitué avec Arcanin pour gérer les menaces au front, puis un nouveau petit venu derrière qui fera office de Joker ! Pyrax est un Pokémon très interessant grâce à son attaque à 80 qui peut toucher les Pokémons du banc adverse, on pourra alors le mettre en combo avec la Pokéflute, nouvel objet permettant de faire revivre un Pokémon mort sur le banc adverse, nous offrant la possibilité de le tuer une nouvelle fois pour un point gratuit supplémentaire."
   }
 ]
