@@ -969,36 +969,6 @@
   {
     "new": true,
     "id": 31,
-    "name": "Noadkolebi",
-    "nameImg": "Noadkolebi",
-    "deck": [
-      "A1a-4",
-      "A1a-4",
-      "A1a-5",
-      "A1a-5",
-      "A1a-70",
-      "A1a-70",
-      "A1-021",
-      "A1-021",
-      "A1-022",
-      "A1-022",
-      "A1a-85",
-      "A1a-85",
-      "P-A-002",
-      "P-A-005",
-      "P-A-005",
-      "P-A-007",
-      "P-A-007",
-      "A1-225",
-      "A1-266",
-      "A1-266"
-    ],
-    "rank": "A",
-    "description": "Une autre version du Deck Celebi mais cette fois qui met l'accent sur Noadkoko, on aura l'occasion de jongler entre sa version EX et sa nouvelle forme du mini-set faisant des dégats proportionnels à l'énergie de l'adversaire ! On se retrouve alors avec un deck plus simple à mettre en place que sa version avec Majaspic, plus résistant mais avec moins de dégats."
-  },
-  {
-    "new": true,
-    "id": 32,
     "name": "Drakkarnage",
     "nameImg": "Drakkarnage",
     "deck": [
@@ -1030,7 +1000,7 @@
    },
    {
      "new": true,
-     "id": 33,
+     "id": 32,
      "name": "Drakkarmetal",
      "nameImg": "Drakkarmetal",
      "deck": [
@@ -1060,7 +1030,7 @@
    },
    {
      "new": true,
-     "id": 34,
+     "id": 33,
      "name": "Pterolossinge",
      "nameImg": "Pterolossinge",
      "deck": [
