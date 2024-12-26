@@ -1056,5 +1056,35 @@
      ],
      "rank": "B",
      "description": "Melmetal est de retour dans une version plus efficace qu'auparavent grâce à l'arrivée de Drakkarmin pour assurer la mise en place du Deck ! Mew l'appuiera et permettra de surpasser le maximum de dégats du deck avec son Piratage de Génome."
+   },
+   {
+     "new": true,
+     "id": 34,
+     "name": "Pterolossinge",
+     "nameImg": "Pterolossinge",
+     "deck": [
+       "A1a-86",
+       "P-A-017",
+       "P-A-017",
+       "A1-142",
+       "A1-142",
+       "A1a-84",
+       "A1a-84",
+       "P-A-001",
+       "P-A-001",
+       "P-A-002",
+       "P-A-002",
+       "P-A-005",
+       "P-A-005",
+       "P-A-007",
+       "P-A-007",
+       "A1-223",
+       "A1-225",
+       "A1-225",
+       "A1a-63",
+       "A1a-63"
+     ],
+     "rank": "A",
+     "description": "Un deck aggressif avec du contrôle ? Le combo nous est offert par le duo Colossinge et Ptera EX ! Colossinge grâce à la version promo de Ferossinge permet d'être en place très vite et peut infliger rapidement de lourds dégats. Tandis que Ptera et Mew EX restent sur le banc le tant d'infliger le coup de grâce ou prendre le relai ! Un ensemble de cartes atypique mais efficace, à tester ! "
    }
 ]
