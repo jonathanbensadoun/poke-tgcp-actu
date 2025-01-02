@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Poke-TCGP Actu
 
-## Getting Started
+Bienvenue sur **Poke-TCGP Actu**, un site web réalisé pour un streamer Twitch afin de publier des articles sur le jeu mobile **TCG Pocket**, sorti en octobre.
 
-First, run the development server:
+## Aperçu
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+![Aperçu du site](public/aperçu.gif)
+
+Ce site offre une plateforme intuitive pour partager des actualités, stratégies et analyses autour de **TCG Pocket**, un jeu captivant pour les amateurs de cartes et de compétition.
+
+## Particularités du projet
+
+- **Deadline serrée** : Le site a été conçu et développé en seulement 5 jours.
+- **Hébergement en ligne** : Le site est accessible à l’adresse suivante : [https://poke-tcgp-actu.netlify.app/](https://poke-tcgp-actu.netlify.app/).
+- **Statut du déploiement** :
+
+## Fonctionnalités
+
+- **Articles sur TCG Pocket** : Une section dédiée à la publication d’articles autour des actualités du jeu.
+- **Design adapté aux besoins du streamer** : Interface claire et moderne pour un engagement optimal avec la communauté.
+- **Hébergement via Netlify** : Déploiement rapide et performant.
+
+## Technologies
+
+Ce projet a été construit avec les outils suivants :
+
+- **Next.js** : Framework React pour le rendu côté serveur et la gestion des routes.
+- **TailwindCSS** : Framework CSS pour une mise en page moderne et responsive.
+
+## Installation
+
+1. Clonez le dépôt :
+
+   ```bash
+   git clone https://github.com/jonathanbensadoun/poke-tgcp-actu
+   ```
+
+2. Installez les dépendances :
+
+   ```bash
+   npm install
+   ```
+
+3. Lancez le serveur de développement :
+
+   ```bash
+   npm run dev
+   ```
+
+4. Ouvrez votre navigateur à l'adresse [http://localhost:3000](http://localhost:3000).
+
+## Structure du projet
+
+Voici un aperçu de l'organisation des fichiers principaux :
+
+```
+poke-tcgp-actu/
+├── public/
+│   ├── images/
+│   └── ... (autres fichiers statiques)
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+├── components/
+│   └── ... (composants partagés)
+├── styles/
+│   └── globals.css
+├── README.md
+├── next.config.js
+└── ... (autres fichiers de configuration)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Défis rencontrés
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Gestion du temps** : Réalisation du site en 5 jours avec une qualité optimale.
+- **Optimisation des performances** : Garantir un chargement rapide malgré des contraintes de développement rapide.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Améliorations futures
 
-## Learn More
+- Ajouter une section commentaire pour chaque article.
+- Intégrer des notifications pour les nouvelles publications.
+- Optimiser le design pour une meilleure expérience utilisateur sur mobile.
 
-To learn more about Next.js, take a look at the following resources:
+## Auteur
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Projet réalisé par **Jonathan B** pour un streamer Twitch passionné de TCG Pocket.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Merci de votre intérêt pour ce projet ! N’hésitez pas à visiter le site et à partager vos retours.
